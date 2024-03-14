@@ -13,6 +13,11 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        averia: ["Averia Serif Libre", "serif"],
+        chivo: ["Chivo", "sans-serif"],
+        viga: ["Viga", "sans-serif"]
+      },
     },
   },
   plugins: [],
