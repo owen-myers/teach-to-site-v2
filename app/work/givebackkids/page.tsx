@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function GiveBackKids() {
     return (
         <div>
-            <div className="mx-24 mt-8 mb-6">
+            <div className="mx-40 mt-8 mb-6">
                 <a href="/work" className="font-averia text-gray-400">&lt; Back</a>
             </div>
             <div className="max-w-4xl mx-auto px-4">
