@@ -6,3 +6,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin-top: 2.5rem;
+    }
+}
