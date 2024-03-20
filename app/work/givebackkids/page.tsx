@@ -2,6 +2,7 @@ import Section from "../../section-comp";
 import Stopwatch from "../../stopwatch.png";
 import Package from "../../wrapped-package.png";
 import Image from "next/image";
+import GBH_Banner from "../../GiveBackKids_Banner_Portfolio_Web.png";
 
 
 export default function GiveBackKids() {
@@ -13,9 +14,10 @@ export default function GiveBackKids() {
             <div className="max-w-4xl mx-auto px-4">
                 <div>
                     <h1 className="font-averia text-2xl mb-4">GiveBackKids</h1>
-                    <h2 className="font-chivo text-med mb-10">Teaching design thinking to five-year-olds</h2>
+                    <h2 className="font-chivo text-med mb-6">Teaching design thinking to five-year-olds</h2>
                 </div>
-                <div>
+                <div className="mb-12">
+                    <Image src={ GBH_Banner } alt="Three examples of design thinking curriculum." width={1200} height={600} className="mb-4"/>
                     <div className ="flex justify-left items-center mb-4">
                         <div className="mr-4 flex-shrink-0">
                         <Image src={ Stopwatch } alt="A stopwatch." width={16} height={16}/>
