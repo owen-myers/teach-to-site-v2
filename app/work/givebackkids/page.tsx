@@ -43,6 +43,16 @@ export default function GiveBackKids() {
                         year two: 3 months to test, validate, and deliver a 4-module K-4 design thinking curriculum.`}
                     />
                     <Section
+                        title = "INTERVIEWS"
+                        subtitle = "Learning from facilitators, teachers, and curriculum writers"
+                        paragraph = {`First, our team scheduled interviews for the duration of the sprint. 
+                        We targeted facilitators, teachers, and curriculum writers. An interview or two a 
+                        week allowed for continuous feedback on the materials as they were written. Teachers 
+                        helped us simplify our concepts to meet grade-level SEL goals. Curriculum writers 
+                        informed our decision to include pre-block lesson maps for teachers. And facilitators 
+                        told us what ideas the kids resonated with the most.`}
+                    />
+                    <Section
                         title = "SOLUTION"
                         subtitle = "Flexibile curriculum that centers play"
                         paragraph = {`We co-defined “success” with GiveBackHack: a curriculum that’s 
