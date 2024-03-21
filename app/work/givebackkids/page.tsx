@@ -68,7 +68,7 @@ export default function GiveBackKids() {
                         paragraph = {`Nearly 200 elementary students have navigated design thinking skills with 
                         GiveBackKids. And after it's first year in classrooms, GiveBackHack won additional 
                         funding to pay facilitators, recruit volunteers, and train teachers on design principles. 
-                        Learn more about GiveBackHack here: givebackhack.com`}
+                        Learn more about our partnership here: givebackhack.com`}
                     />
                 </div>
             </div>
