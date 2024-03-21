@@ -59,8 +59,16 @@ export default function GiveBackKids() {
                         subtitle = "Flexibile curriculum that centers play"
                         paragraph = {`We co-defined “success” with GiveBackHack: a curriculum that’s 
                         flexible for teachers, integrative with core academic concepts, and keeps the students 
-                        playing—all within budget. We delivered a high-quality written product that has been used
-                        by nearly 200 students and is available for purchase through GiveBackHack.`}
+                        playing—all within budget. We delivered a high-quality written curriculum available 
+                        for purchase through GiveBackHack.`}
+                    />
+                    <Section
+                        title = "OUTCOMES"
+                        subtitle = "Beyond the product: 200 students"
+                        paragraph = {`Nearly 200 elementary students have navigated design thinking skills with 
+                        GiveBackKids. And after it's first year in classrooms, GiveBackHack won additional 
+                        funding to pay facilitators, recruit volunteers, and train teachers on design principles. 
+                        Learn more about GiveBackHack here: givebackhack.com`}
                     />
                 </div>
             </div>
