@@ -2,7 +2,8 @@ import Section from "../../section-comp";
 import Stopwatch from "../../stopwatch.png";
 import Package from "../../wrapped-package.png";
 import Image from "next/image";
-import GBH_Banner from "../../GiveBackKids_Banner_Portfolio_Web.png";
+import GBH_Banner from "../../GiveBackKids_Banner_Portfolio_V2.png";
+import GBH_Snapshots from "../../GBK_Snapshots.png";
 
 
 export default function GiveBackKids() {
@@ -52,6 +53,7 @@ export default function GiveBackKids() {
                         informed our decision to include pre-block lesson maps for teachers. And facilitators 
                         told us what ideas the kids resonated with the most.`}
                     />
+                    <Image src={ GBH_Snapshots } alt="Two examples of interview snapshots." width={1200} height={600} className="mb-4"/>
                     <Section
                         title = "SOLUTION"
                         subtitle = "Flexibile curriculum that centers play"
