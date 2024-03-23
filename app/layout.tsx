@@ -5,7 +5,10 @@ import "./globals.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "TeachTo",
+  title: "Iuka Impact Collective",
+  description: `Iuka brings innovation frameworks to impact organizations.
+  Embedded partnerships to meet users, identify opportunites, and minimize 
+  long-term costs.`
 };
 
 export default function RootLayout({
