@@ -7,7 +7,7 @@ export default function Contact() {
             <div className="mr-8 flex-shrink-0">
                 <Image src={ Envelope } alt="An envelope." width={16} height={16}/>
             </div>
-            <p className="text-center font-chivo text-sm">owenmyers12@gmail.com</p>
+            <p className="text-center font-chivo text-sm">owen@iukaimpact.com</p>
         </div>
 
     );
