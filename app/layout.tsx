@@ -5,7 +5,7 @@ import "./globals.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Iuka: Product strategy meets impact",
+  title: "Iuka",
   description: `Iuka brings innovation frameworks to impact organizations.
   Embedded partnerships to meet users, identify opportunites, and minimize 
   long-term costs.`
