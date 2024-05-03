@@ -5,10 +5,10 @@ import "./globals.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Iuka",
+  title: "Iuka - Innovation Partners in Columbus, OH",
   description: `Iuka brings innovation frameworks to impact organizations.
-  Embedded partnerships to meet users, identify opportunites, and minimize 
-  long-term costs.`
+  Embedded partnerships to meet users, identify opportunites, and maximize
+  philanthropic impact.`
 };
 
 export default function RootLayout({
