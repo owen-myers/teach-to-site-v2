@@ -4,6 +4,13 @@ import Package from "../../wrapped-package.png";
 import Image from "next/image";
 import GBH_Banner from "../../GiveBackKids_Banner_Portfolio_V2.png";
 import GBH_Snapshots from "../../GBK_Snapshots.png";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Iuka - Work - GiveBackKids",
+  description: `Our partnership with GiveBackHack. GiveBackKids empowers teachers to
+                lead design thinking lessons in elementary schools in Columbus, Ohio.`
+};
 
 
 export default function GiveBackKids() {

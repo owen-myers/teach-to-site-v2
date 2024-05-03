@@ -1,3 +1,12 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Iuka - Philosophy",
+  description: `We believe in connecting non-profits with their stakeholders to
+                nurture equitable relationships, improve services, and incrementally
+                take on wicked problems.`
+};
+
 
 export default function Philosophy() {
     return (
@@ -20,7 +29,7 @@ export default function Philosophy() {
                     </p>
                 </div>
                 <div className="mx-auto text-left w-3/4 lg:w-1/3 lg:pl-8 mb-8">
-                    <h1 className="font-averia text-xl mb-6">Solve with community, always</h1>
+                    <h1 className="font-averia text-xl mb-6">Human-centered design as a tool for equity</h1>
                     <p className="font-chivo text-sm">Non-profits often solve problems on behalf of those 
                     experiencing the problem itself. We embed community members into non-profit strategy as 
                     co-creators of solutions, a core tenet of design thinking. Bring the community along — 

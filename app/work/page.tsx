@@ -1,5 +1,11 @@
 import Card from "../card-comp";
 import Link from "next/link";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Iuka - Work",
+  description: `Check out our previous consulting, design, and research projects.`
+};
 
 export default function Work() {
  return (

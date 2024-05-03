@@ -1,5 +1,11 @@
 import Image from "next/image";
 import Envelope from "../envelope.png";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Iuka - Contact",
+  description: `Reach out to us here.`
+};
 
 export default function Contact() {
     return (

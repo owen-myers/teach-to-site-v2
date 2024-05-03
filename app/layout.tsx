@@ -2,14 +2,6 @@ import Image from "next/image";
 import TeachToScribble from "./TeachTo_Scribble_Transparent.png";
 import Nav from "./nav";
 import "./globals.css";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Iuka - Innovation Partners in Columbus, OH",
-  description: `Iuka brings innovation frameworks to impact organizations.
-  Embedded partnerships to meet users, identify opportunites, and maximize
-  philanthropic impact.`
-};
 
 export default function RootLayout({
   children,
