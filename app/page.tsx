@@ -1,10 +1,14 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Iuka - Innovation Partners in Columbus, OH",
+  title: {
+    template: "%s | Iuka Innovation",
+    default:"Iuka - Innovation Partners in Columbus, OH",
+  },
   description: `Iuka brings innovation frameworks to impact organizations.
   Embedded partnerships to meet users, identify opportunites, and maximize
-  philanthropic impact.`
+  philanthropic impact.`,
+  metadataBase: new URL ("https://iukaimpact.com")
 };
 
 export default function Home() {
