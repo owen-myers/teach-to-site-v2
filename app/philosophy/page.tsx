@@ -16,8 +16,8 @@ export default function Philosophy() {
                     <h1 className="font-averia text-xl mb-6">Methodical tinkerers,<br/> not revolutionaries</h1>
                     <p className="font-chivo text-sm">Non-profits solve wicked problems. And unlike startups, 
                     moving fast and breaking things is often not an option. We approach wicked problems with 
-                    a subtle curiousity, while equipping you to test assumptions. Dream big, but take incremental 
-                    and apdative action.
+                    a subtle curiosity, while equipping you to test assumptions. Dream big, but take incremental 
+                    and adaptive action.
                     </p>
                 </div>
                 <div className="mx-auto text-left w-3/4 lg:w-1/3 lg:px-8 mb-8">
