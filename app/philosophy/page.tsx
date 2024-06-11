@@ -22,10 +22,9 @@ export default function Philosophy() {
                 </div>
                 <div className="mx-auto text-left w-3/4 lg:w-1/3 lg:px-8 mb-8">
                     <h1 className="font-averia text-xl mb-6">Tech as a surgical tool</h1>
-                    <p className="font-chivo text-sm">Non-profits solve challenges that have been with us since 
-                    society's first breath. Every second counts as their staff chisel away at the mile-deep 
-                    stone wall of social progress. Instead of digging for wrecking balls, let’s use tech as 
-                    a surgical tool. How can we improve one facet of one corner of one problem and build from there?
+                    <p className="font-chivo text-sm">Non-profits can forward a more just and equitable society. But it's a long road.
+                    Iuka believes in leveraging technology with specificity. How can we improve one facet of one corner of one problem 
+                    and build from there?
                     </p>
                 </div>
                 <div className="mx-auto text-left w-3/4 lg:w-1/3 lg:pl-8 mb-8">
