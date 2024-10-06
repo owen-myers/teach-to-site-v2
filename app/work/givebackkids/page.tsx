@@ -17,7 +17,7 @@ export default function GiveBackKids() {
     return (
         <div>
             <div className="max-w-4xl px-4 mx-auto mt-8 mb-6">
-                <a href="/work" className="font-chivo text-gray-500">&lt; Back</a>
+                <a href="/work" className="font-chivo text-gray-500">&larr; Back</a>
             </div>
             <div className="max-w-4xl mx-auto px-4">
                 <div>
