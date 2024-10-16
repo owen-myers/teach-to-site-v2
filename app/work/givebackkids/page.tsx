@@ -12,6 +12,7 @@ export const metadata: Metadata = {
                 lead design thinking lessons in elementary schools in Columbus, Ohio.`
 };
 
+const GBKLinkStyle = "font-chivo text-sm text-blue-600 underline hover:text-blue-800 transition duration-200 ease-in-out";
 
 export default function GiveBackKids() {
     return (
@@ -75,8 +76,11 @@ export default function GiveBackKids() {
                         paragraph = {`Nearly 200 elementary students have navigated design thinking skills with 
                         GiveBackKids. And after it's first year in classrooms, GiveBackHack won additional 
                         funding to pay facilitators, recruit volunteers, and train teachers on design principles. 
-                        Learn more about our partnership here: givebackhack.com`}
+                        Learn more about our partnership below.`}
                     />
+                    <div className="flex justify-center">
+                        <a className={GBKLinkStyle} href="https://givebackhack.notion.site/GiveBackKids-d00a04322613461eafa81c0db7b771c1">Check out GBK &#8599;</a>
+                    </div>
                 </div>
             </div>
         </div>
