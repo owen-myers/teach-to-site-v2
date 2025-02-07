@@ -18,6 +18,9 @@ const config: Config = {
         chivo: ["Chivo", "sans-serif"],
         viga: ["Viga", "sans-serif"]
       },
+      colors: {
+        offwhite: '#F8F8F8',
+      },
     },
   },
   plugins: [],

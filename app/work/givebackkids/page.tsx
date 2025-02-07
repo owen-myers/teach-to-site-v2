@@ -2,7 +2,7 @@ import Section from "../../section-comp";
 import Stopwatch from "../../stopwatch.png";
 import Package from "../../wrapped-package.png";
 import Image from "next/image";
-import GBH_Banner from "../../GiveBackKids_Banner_Portfolio_V2.png";
+import GBH_Banner from "../../../public/GBH_Header_Portfolio.svg";
 import GBH_Snapshots from "../../GBK_Snapshots.png";
 import { Metadata } from 'next';
 
@@ -23,10 +23,10 @@ export default function GiveBackKids() {
             <div className="max-w-4xl mx-auto px-4">
                 <div>
                     <h1 className="font-averia text-2xl mb-4">GiveBackKids</h1>
-                    <h2 className="font-chivo text-med mb-6">Teaching design thinking to five-year-olds</h2>
+                    <h2 className="font-chivo text-med mb-8">Teaching design thinking to five-year-olds</h2>
                 </div>
                 <div className="mb-12">
-                    <Image src={ GBH_Banner } alt="Three examples of design thinking curriculum." width={1200} height={600} className="mb-4"/>
+                    <Image src={ GBH_Banner } alt="Three examples of design thinking curriculum." width={1200} height={600} className="mb-8"/>
                     <div className ="flex justify-left items-center mb-4">
                         <div className="mr-4 flex-shrink-0">
                         <Image src={ Stopwatch } alt="A stopwatch." width={16} height={16}/>
