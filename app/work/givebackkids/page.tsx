@@ -3,7 +3,7 @@ import Stopwatch from "../../stopwatch.png";
 import Package from "../../wrapped-package.png";
 import Image from "next/image";
 import GBH_Banner from "../../../public/GBH_Header_Portfolio.svg";
-import GBH_Snapshots from "../../GBK_Snapshots.png";
+import GBH_Snapshots from "../../../public/GBH_Snapshots_Portfolio.svg";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
