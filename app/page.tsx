@@ -1,16 +1,5 @@
-import { Metadata } from 'next';
-import Link from 'next/link';
 
-export const metadata: Metadata = {
-  title: {
-    template: "%s | Iuka Innovation",
-    default:"Iuka - Innovation Partners in NYC",
-  },
-  description: `Iuka brings innovation frameworks to impact organizations.
-  Embedded partnerships to meet users, identify opportunites, and maximize
-  philanthropic impact.`,
-  metadataBase: new URL ("https://iukaimpact.com")
-};
+import Link from 'next/link';
 
 export default function Home() {
   return (
