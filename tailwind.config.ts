@@ -14,12 +14,9 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        averia: ["Averia Serif Libre", "serif"],
+        castoro: ["Castoro", "serif"],
         chivo: ["Chivo", "sans-serif"],
         viga: ["Viga", "sans-serif"]
-      },
-      colors: {
-        offwhite: '#F8F8F8',
       },
     },
   },

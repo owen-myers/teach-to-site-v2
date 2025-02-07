@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="container mx-auto w-3/4 text-left mt-40 max-w-sm">
-      <h1 className="font-averia text-2xl mb-6">Build products and programs that truly improve the common welfare</h1>
+      <h1 className="font-castoro text-2xl mb-6">Build products and programs that truly improve the common welfare</h1>
       <p className="font-chivo text-sm mb-8">
         Research and prototyping services for teams innovating in the care economy. 
         Now accepting clients for 2025. 

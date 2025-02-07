@@ -22,7 +22,7 @@ export default function GiveBackKids() {
             </div>
             <div className="max-w-4xl mx-auto px-4">
                 <div>
-                    <h1 className="font-averia text-2xl mb-4">GiveBackKids</h1>
+                    <h1 className="font-castoro text-2xl mb-4">GiveBackKids</h1>
                     <h2 className="font-chivo text-med mb-8">Teaching design thinking to five-year-olds</h2>
                 </div>
                 <div className="mb-12">
@@ -31,13 +31,13 @@ export default function GiveBackKids() {
                         <div className="mr-4 flex-shrink-0">
                         <Image src={ Stopwatch } alt="A stopwatch." width={16} height={16}/>
                         </div>
-                    <p className="font-averia text-med">3 months</p>
+                    <p className="font-castoro text-med">3 months</p>
                     </div>
                     <div className ="flex justify-left items-center mb-4">
                         <div className="mr-4 flex-shrink-0">
                         <Image src={ Package } alt="A wrapped package." width={16} height={16}/>
                         </div>
-                    <p className="font-averia text-med">4-module curriculum</p>
+                    <p className="font-castoro text-med">4-module curriculum</p>
                     </div>
                 </div>
                 <div>

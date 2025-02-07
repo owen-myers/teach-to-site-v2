@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Nav() {
     return (
         <div>
-            <nav className="font-averia text-black py-8 flex justify-between items-center">
+            <nav className="font-castoro text-black py-8 flex justify-between items-center">
                 <div className="ml-12 mr-3 sm:mr-8">
                 <Link href="/">Iuka
                 <p className="font-chivo text-gray-500 text-xs">(eye-you-kuh)</p>
