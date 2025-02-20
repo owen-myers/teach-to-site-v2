@@ -12,7 +12,7 @@ export const metadata: Metadata = {
                 lead design thinking lessons in elementary schools in Columbus, Ohio.`
 };
 
-const GBKLinkStyle = "font-chivo text-sm text-blue-600 underline hover:text-blue-800 transition duration-200 ease-in-out";
+const GBKLinkStyle = "font-chivo text-md text-blue-600 underline hover:text-blue-800 transition duration-200 ease-in-out";
 
 export default function GiveBackKids() {
     return (
