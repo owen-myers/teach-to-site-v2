@@ -1,5 +1,9 @@
 
 import Link from 'next/link';
+import Image from 'next/image';
+import GBHLogo from "../public/GBH_Logo_Gray.svg";
+import SEACLogo from "../public/SEAC_Logo_Gray.svg";
+import ASRLogo from "../public/ASR_Logo_Black.svg";
 
 export default function Home() {
   return (
@@ -15,6 +19,29 @@ export default function Home() {
         transition duration-300 ease-in-out transform hover:bg-gray-100 
         hover:scale-105 p-2'>Let's talk &rarr;</button>
         </Link>
+      </div>
+      <div className="flex flex-col items-center md:flex-row md:justify-center">
+        <Image
+          src={GBHLogo}
+          alt="Logo for GiveBackHack"
+          width={225}
+          height={225}
+          className="object-contain"
+        />
+        <Image
+        src={SEACLogo}
+        alt="Logo for SEA Change"
+        width={225}
+        height={225}
+        className="object-contain"
+        />
+        <Image
+          src={ASRLogo}
+          alt="Logo for Autistic Self Reliance Support Network"
+          width={225}
+          height={225}
+          className="object-contain"
+        />
       </div>
     </div>
   );

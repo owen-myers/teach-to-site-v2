@@ -29,8 +29,8 @@ export default function GiveBackKids() {
                 </div>
                 <div className="mb-12">
                     <div className="mb-8">
-                    <Image src={ GBH_Banner } alt="Three examples of design thinking curriculum." width={1200} height={600} className="mb-2"/>
-                    <p className={captionStyle}>First lesson of GiveBackKids for Pre-K and Kindergarten</p>
+                        <Image src={ GBH_Banner } alt="Three examples of design thinking curriculum." width={1200} height={600} className="mb-2"/>
+                        <p className={captionStyle}>First lesson of GiveBackKids for Pre-K and Kindergarten</p>
                     </div>
                     <div className ="flex justify-left items-center mb-4">
                         <div className="mr-4 flex-shrink-0">
@@ -67,8 +67,8 @@ export default function GiveBackKids() {
                         told us what ideas the kids resonated with the most.`}
                     />
                     <div className="mb-8">
-                    <Image src={ GBH_Snapshots } alt="Original flow of curriculum." width={1200} height={600} className="mb-2"/>
-                    <p className={captionStyle}>Interview snapshots from conversations with K-5 teachers</p>
+                        <Image src={ GBH_Snapshots } alt="Original flow of curriculum." width={1200} height={600} className="mb-2"/>
+                        <p className={captionStyle}>Interview snapshots from conversations with K-5 teachers</p>
                     </div>
                     <Section
                         title = "SOLUTION"
@@ -79,8 +79,8 @@ export default function GiveBackKids() {
                         for purchase through GiveBackHack.`}
                     />
                     <div className="mb-8">
-                    <Image src={ GBH_Curriculum_Map } alt="Original flow of curriculum." width={1200} height={600} className="mb-2"/>
-                    <p className={captionStyle}>Original outline of curriculum with grade-adjusted lessons in color</p>
+                        <Image src={ GBH_Curriculum_Map } alt="Original flow of curriculum." width={1200} height={600} className="mb-2"/>
+                        <p className={captionStyle}>Original outline of curriculum with grade-adjusted lessons in color</p>
                     </div>
                     <Section
                         title = "OUTCOMES"
