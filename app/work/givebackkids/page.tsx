@@ -4,6 +4,7 @@ import Package from "../../wrapped-package.png";
 import Image from "next/image";
 import GBH_Banner from "../../../public/GBH_Header_Portfolio.svg";
 import GBH_Snapshots from "../../../public/GBH_Snapshots_Portfolio.svg";
+import GBH_Curriculum_Map from "../../../public/GBH_Curriculum_Map.svg";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
 };
 
 const GBKLinkStyle = "font-chivo text-md text-blue-600 underline hover:text-blue-800 transition duration-200 ease-in-out";
+const captionStyle = "font-chivo text-sm text-gray-500 flex justify-center"
 
 export default function GiveBackKids() {
     return (
@@ -26,7 +28,10 @@ export default function GiveBackKids() {
                     <h2 className="font-chivo text-med mb-8">Teaching design thinking to five-year-olds</h2>
                 </div>
                 <div className="mb-12">
-                    <Image src={ GBH_Banner } alt="Three examples of design thinking curriculum." width={1200} height={600} className="mb-8"/>
+                    <div className="mb-8">
+                    <Image src={ GBH_Banner } alt="Three examples of design thinking curriculum." width={1200} height={600} className="mb-2"/>
+                    <p className={captionStyle}>First lesson of GiveBackKids for Pre-K and Kindergarten</p>
+                    </div>
                     <div className ="flex justify-left items-center mb-4">
                         <div className="mr-4 flex-shrink-0">
                         <Image src={ Stopwatch } alt="A stopwatch." width={16} height={16}/>
@@ -61,7 +66,10 @@ export default function GiveBackKids() {
                         informed our decision to include pre-block lesson maps for teachers. And facilitators 
                         told us what ideas the kids resonated with the most.`}
                     />
-                    <Image src={ GBH_Snapshots } alt="Two examples of interview snapshots." width={1200} height={600} className="mb-8"/>
+                    <div className="mb-8">
+                    <Image src={ GBH_Snapshots } alt="Original flow of curriculum." width={1200} height={600} className="mb-2"/>
+                    <p className={captionStyle}>Interview snapshots from conversations with K-5 teachers</p>
+                    </div>
                     <Section
                         title = "SOLUTION"
                         subtitle = "Flexibile curriculum that centers play"
@@ -70,6 +78,10 @@ export default function GiveBackKids() {
                         playing—all within budget. We delivered a high-quality written curriculum available 
                         for purchase through GiveBackHack.`}
                     />
+                    <div className="mb-8">
+                    <Image src={ GBH_Curriculum_Map } alt="Original flow of curriculum." width={1200} height={600} className="mb-2"/>
+                    <p className={captionStyle}>Original outline of curriculum with grade-adjusted lessons in color</p>
+                    </div>
                     <Section
                         title = "OUTCOMES"
                         subtitle = "Beyond the product: 200 students"
