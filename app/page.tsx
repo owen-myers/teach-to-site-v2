@@ -10,10 +10,10 @@ export default function Home() {
         Now accepting clients for 2025. 
       </p>
       <div className="flex justify-center">
-        <Link href="/work">
+        <Link href="https://calendly.com/owen-iukaimpact/30min">
         <button className='rounded border border-black font-chivo text-md
         transition duration-300 ease-in-out transform hover:bg-gray-100 
-        hover:scale-105 p-2'>Work &rarr;</button>
+        hover:scale-105 p-2'>Let's talk &rarr;</button>
         </Link>
       </div>
     </div>
