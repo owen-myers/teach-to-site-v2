@@ -51,7 +51,7 @@ export default function GiveBackKids() {
                         subtitle = "Design thinking for 5-year-olds: how do we teach it?"
                         paragraph = {`Our partners at GiveBackHack teach design thinking skills to hundreds 
                         of adults each year. But when they were tapped to build those skills with K-4 students, 
-                        a wall of how's stood in front of their nose: How to speak “5-year-old,” exactly? 
+                        a bunch of questions arose: How exactly do we speak “5-year-old"? 
                         And how might educators teach this stuff after we leave the classroom? After an initial 
                         prototype for their first year, GiveBackHack talked with us to arrange a sprint ahead of 
                         year two: 3 months to test, validate, and deliver a 4-module K-4 design thinking curriculum.`}
@@ -59,11 +59,11 @@ export default function GiveBackKids() {
                     <Section
                         title = "DISCOVERY"
                         subtitle = "Learning from facilitators, teachers, and curriculum writers"
-                        paragraph = {`Our team scheduled interviews for the duration of the sprint. 
+                        paragraph = {`Iuka scheduled interviews for the duration of the sprint. 
                         We targeted facilitators, teachers, and curriculum writers. An interview or two a 
                         week allowed for continuous feedback on the materials as they were written. Teachers 
-                        helped us simplify our concepts to meet grade-level SEL goals. Curriculum writers 
-                        informed our decision to include pre-block lesson maps for teachers. And facilitators 
+                        helped us simplify our concepts to meet grade-level SEL goals, curriculum writers 
+                        informed our decision to include pre-block lesson maps for teachers, and facilitators 
                         told us what ideas the kids resonated with the most.`}
                     />
                     <div className="mb-8">
@@ -75,7 +75,7 @@ export default function GiveBackKids() {
                         subtitle = "Flexibile curriculum that centers play"
                         paragraph = {`We co-defined “success” with GiveBackHack: a curriculum that’s 
                         flexible for teachers, integrative with core academic concepts, and keeps the students 
-                        playing—all within budget. We delivered a high-quality written curriculum available 
+                        playing—all within budget. We delivered 23 unique lessons available 
                         for purchase through GiveBackHack.`}
                     />
                     <div className="mb-8">
@@ -85,9 +85,9 @@ export default function GiveBackKids() {
                     <Section
                         title = "OUTCOMES"
                         subtitle = "Beyond the product: 200 students"
-                        paragraph = {`Nearly 200 elementary students have navigated design thinking skills with 
-                        GiveBackKids. And after it's first year in classrooms, GiveBackHack won additional 
-                        funding to pay facilitators, recruit volunteers, and train teachers on design principles. 
+                        paragraph = {`Over 400 elementary students from Columbus City Schools have learned design thinking skills with 
+                        GiveBackKids since 2022. And after it's first year in classrooms, GiveBackHack won additional 
+                        funding from The Columbus Foundation to pay facilitators, recruit volunteers, and train teachers on design principles. 
                         Learn more about our partnership below.`}
                     />
                     <div className="flex justify-center">
