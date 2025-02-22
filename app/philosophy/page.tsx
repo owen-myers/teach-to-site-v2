@@ -13,7 +13,7 @@ const bodyStyle = "font-chivo text-md"
 export default function Philosophy() {
     return (
         <div>
-            <div className="flex flex-col justify-between w-2/5 pr-8 mb-8 mx-auto mt-20">
+            <div className="flex flex-col justify-between w-4/5 pr-8 mb-8 mx-auto mt-20 md:w-1/2 ">
                 <div className="mx-auto text-left mb-8">
                     <h1 className={headerStyle}>Methodical tinkerers, not revolutionaries</h1>
                     <p className={bodyStyle}>Non-profits solve wicked problems. And unlike startups, 

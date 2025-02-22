@@ -11,9 +11,9 @@ export default function Contact() {
     return (
         <div className ="flex justify-center items-center mt-40 mb-14">
             <div className="mr-8 flex-shrink-0">
-                <Image src={ Envelope } alt="An envelope." width={16} height={16}/>
+                <Image src={ Envelope } alt="An envelope." width={18} height={18}/>
             </div>
-            <p className="text-center font-chivo text-sm">owen@iukaimpact.com</p>
+            <p className="text-center font-chivo text-md">owen@iukaimpact.com</p>
         </div>
 
     );
