@@ -84,7 +84,7 @@ export default function GiveBackKids() {
                     </div>
                     <Section
                         title = "OUTCOMES"
-                        subtitle = "Beyond the product: 200 students"
+                        subtitle = "Beyond the product: 400+ students"
                         paragraph = {`Over 400 elementary students from Columbus City Schools have learned design thinking skills with 
                         GiveBackKids since 2022. And after it's first year in classrooms, GiveBackHack won additional 
                         funding from The Columbus Foundation to pay facilitators, recruit volunteers, and train teachers on design principles. 
