@@ -1,9 +1,9 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import GBHLogo from "../public/GBH_Logo_Gray.svg";
-import SEACLogo from "../public/SEAC_Logo_Gray.svg";
-import ASRLogo from "../public/ASR_Logo_Black.svg";
+import GBHLogo from "../public/GBH_Logo_Sized.svg";
+import SEACLogo from "../public/SEAC_Logo_Sized.svg";
+import ASRLogo from "../public/ASR_Logo_Sized.svg";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         Research and prototyping services for teams innovating in the care economy. 
         Now accepting clients for 2025. 
       </p>
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-12">
         <Link href="https://calendly.com/owen-iukaimpact/30min">
         <button className='rounded border border-black font-chivo text-md
         transition duration-300 ease-in-out transform hover:bg-gray-100 
