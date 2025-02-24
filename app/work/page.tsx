@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function Work() {
  return (
-        <div className ="flex justify-center items-center mt-40 mb-14 space-x-4">
+        <div className ="flex flex-col md:flex-row justify-center items-center mt-40 mb-14 md:space-x-4">
             <Link href="/work/givebackkids">
                 <Card
                  title="GiveBackKids"
@@ -18,6 +18,7 @@ export default function Work() {
                  showArrow={false}
                 />
             </Link>
+            <br />
             <Link href="https://www.teach-to.com" target="_blank" rel="noopener noreferrer">
                 <Card
                  title="TeachTo"
