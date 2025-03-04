@@ -8,7 +8,7 @@ import GBH_Curriculum_Map from "../../../public/GBH_Curriculum_Map.svg";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Iuka - Work - GiveBackKids",
+  title: "Iuka — GiveBackKids",
   description: `Our partnership with GiveBackHack. GiveBackKids empowers teachers to
                 lead design thinking lessons in elementary schools in Columbus, Ohio.`
 };
@@ -19,12 +19,12 @@ const captionStyle = "font-chivo text-sm text-gray-500 flex justify-center"
 export default function GiveBackKids() {
     return (
         <div>
-            <div className="max-w-4xl px-4 mx-auto mt-8 mb-6">
-                <a href="/work" className="font-chivo text-gray-500">&larr; Back</a>
+            <div className="max-w-3xl px-4 mx-auto mt-8 mb-6">
+                <a href="/work" className="font-chivo text-gray-500 hover:text-gray-900 transition duration-200 ease-in-out">&larr; Back</a>
             </div>
-            <div className="max-w-4xl mx-auto px-4">
+            <div className="max-w-3xl mx-auto px-4">
                 <div>
-                    <h1 className="font-castoro text-2xl mb-4">GiveBackKids</h1>
+                    <h1 className="font-castoro text-3xl mb-2">GiveBackKids</h1>
                     <h2 className="font-chivo text-med mb-8">Teaching design thinking to five-year-olds</h2>
                 </div>
                 <div className="mb-12">

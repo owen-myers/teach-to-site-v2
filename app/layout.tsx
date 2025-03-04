@@ -6,12 +6,12 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    default:"Iuka | Innovation Partners in NYC",
-    template: "%s | Iuka Innovation",
+    default:"Iuka",
+    template: "%s — Iuka",
   },
-  description: `Iuka brings innovation frameworks to impact organizations.
-  Embedded partnerships to meet users, identify opportunites, and maximize
-  philanthropic impact.`,
+  description: `Iuka brings innovation frameworks to all organizations.
+  Embedded partnerships to meet users, identify opportunites, and manage risk burden
+  of new internal ventures.`,
   metadataBase: new URL ("https://iukaimpact.com")
 };
 

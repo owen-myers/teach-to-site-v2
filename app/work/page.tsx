@@ -26,6 +26,14 @@ export default function Work() {
                  showArrow={true}
                 />
             </Link>
+            <br />
+            <Link href="/work/map">
+                <Card
+                 title="MAP"
+                 subtitle="GPT-assisted aggregation of accessible transit resources"
+                 showArrow={false}
+                />
+            </Link>
         </div>
     );
 };
