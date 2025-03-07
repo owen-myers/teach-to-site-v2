@@ -8,7 +8,7 @@ import ASRLogo from "../public/ASR_Logo_Sized.svg";
 export default function Home() {
   return (
     <div className="container mx-auto w-3/4 text-left md:mt-10 max-w-md">
-      <h1 className="font-lora text-3xl mb-6">A partner for building elegant and impactful products</h1>
+      <h1 className="font-lora text-3xl mb-6">Let's get real about innovation.</h1>
       <p className="font-rethink text-md mb-8 leading-relaxed">
         Strategy, research, prototyping, and V1.0 development in a single partnership. 
         Over $50K in development-related cost savings last year. 
@@ -16,7 +16,7 @@ export default function Home() {
       </p>
       <div className="flex justify-center mb-12">
         <Link href="https://calendly.com/owen-iukaimpact/30min">
-        <button className='rounded border border-black font-chivo text-md
+        <button className='rounded border border-black font-rethink text-md
         transition duration-300 ease-in-out transform hover:bg-gray-100 
         hover:scale-105 p-2'>Let's talk &rarr;</button>
         </Link>
