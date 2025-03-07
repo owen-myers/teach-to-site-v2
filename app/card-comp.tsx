@@ -14,8 +14,8 @@ const Card: React.FC<CardProps & { showArrow?: boolean }> = ({ title, subtitle, 
                 <button className="absolute top-1 right-2 text-xl">{"\u2197"}</button>
             )}
             <div className="px-6 py-4">
-                <div className="font-castoro text-2xl mb-4">{title}</div>
-                <p className="font-chivo text-md">{subtitle}</p>
+                <div className="font-lora text-2xl mb-4">{title}</div>
+                <p className="font-rethink text-md">{subtitle}</p>
             </div>
         </div>
     );

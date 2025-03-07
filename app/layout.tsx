@@ -1,5 +1,5 @@
 import Image from "next/image";
-import TeachToScribble from "./TeachTo_Scribble_Transparent.png";
+import TeachToScribble from "../public/TeachTo_Scribble_Transparent.png";
 import Nav from "./nav";
 import "./globals.css";
 import { Metadata } from "next";

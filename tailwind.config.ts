@@ -16,7 +16,9 @@ const config: Config = {
       fontFamily: {
         castoro: ["Castoro", "serif"],
         chivo: ["Chivo", "sans-serif"],
-        viga: ["Viga", "sans-serif"]
+        viga: ["Viga", "sans-serif"],
+        rethink: ["Rethink Sans", "sans-serif"],
+        lora: ["Lora", "serif"],
       },
     },
   },

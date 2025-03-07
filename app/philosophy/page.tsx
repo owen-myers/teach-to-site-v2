@@ -7,8 +7,8 @@ export const metadata: Metadata = {
                 take on wicked problems.`
 };
 
-const headerStyle = "font-castoro text-2xl mb-6";
-const bodyStyle = "font-chivo text-md"
+const headerStyle = "font-lora text-2xl mb-6";
+const bodyStyle = "font-rethink text-md"
 
 export default function Philosophy() {
     return (

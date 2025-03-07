@@ -1,6 +1,6 @@
 import Section from "../../section-comp";
-import Stopwatch from "../../stopwatch.png";
-import Package from "../../wrapped-package.png";
+import Stopwatch from "../../../public/stopwatch.png";
+import Package from "../../../public/wrapped-package.png";
 import Image from "next/image";
 import GBH_Banner from "../../../public/GBH_Header_Portfolio.svg";
 import GBH_Snapshots from "../../../public/GBH_Snapshots_Portfolio.svg";
@@ -13,19 +13,19 @@ export const metadata: Metadata = {
                 lead design thinking lessons in elementary schools in Columbus, Ohio.`
 };
 
-const GBKLinkStyle = "font-chivo text-md text-blue-600 underline hover:text-blue-800 transition duration-200 ease-in-out";
-const captionStyle = "font-chivo text-sm text-gray-500 flex justify-center"
+const GBKLinkStyle = "font-rethink text-md text-blue-600 underline hover:text-blue-800 transition duration-200 ease-in-out";
+const captionStyle = "font-rethink text-sm text-gray-500 flex justify-center"
 
 export default function GiveBackKids() {
     return (
         <div>
             <div className="max-w-3xl px-4 mx-auto mt-8 mb-6">
-                <a href="/work" className="font-chivo text-gray-500 hover:text-gray-900 transition duration-200 ease-in-out">&larr; Back</a>
+                <a href="/work" className="font-rethink text-gray-500 hover:text-gray-900 transition duration-200 ease-in-out">&larr; Back</a>
             </div>
             <div className="max-w-3xl mx-auto px-4">
                 <div>
-                    <h1 className="font-castoro text-3xl mb-2">GiveBackKids</h1>
-                    <h2 className="font-chivo text-med mb-8">Teaching design thinking to five-year-olds</h2>
+                    <h1 className="font-lora text-3xl mb-2">GiveBackKids</h1>
+                    <h2 className="font- text-med mb-8">Teaching design thinking to five-year-olds</h2>
                 </div>
                 <div className="mb-12">
                     <div className="mb-8">
@@ -36,13 +36,13 @@ export default function GiveBackKids() {
                         <div className="mr-4 flex-shrink-0">
                         <Image src={ Stopwatch } alt="A stopwatch." width={16} height={16}/>
                         </div>
-                    <p className="font-castoro text-med">3 months</p>
+                    <p className="font-lora text-med">3 months</p>
                     </div>
                     <div className ="flex justify-left items-center mb-4">
                         <div className="mr-4 flex-shrink-0">
                         <Image src={ Package } alt="A wrapped package." width={16} height={16}/>
                         </div>
-                    <p className="font-castoro text-med">4-module curriculum</p>
+                    <p className="font-lora text-med">4-module curriculum</p>
                     </div>
                 </div>
                 <div>
