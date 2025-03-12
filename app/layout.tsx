@@ -26,9 +26,6 @@ export default function RootLayout({
       <body >
         <Nav />
         <main>{children}</main>
-        <div className="h-16 w-16 mx-auto mt-8 mb-6">
-            <Image src={ TeachToScribble } alt="Logo with lots of lines." />
-        </div>
       </body>
     </html>
   );

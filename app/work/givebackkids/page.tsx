@@ -13,19 +13,19 @@ export const metadata: Metadata = {
                 lead design thinking lessons in elementary schools in Columbus, Ohio.`
 };
 
-const GBKLinkStyle = "font-rethink text-md text-blue-600 underline hover:text-blue-800 transition duration-200 ease-in-out";
-const captionStyle = "font-rethink text-sm text-gray-500 flex justify-center"
+const GBKLinkStyle = "font-figtree font-light text-md text-blue-600 underline hover:text-blue-800 transition duration-200 ease-in-out";
+const captionStyle = "font-figtree font-light text-sm text-gray-500 flex justify-center"
 
 export default function GiveBackKids() {
     return (
         <div>
             <div className="max-w-3xl px-4 mx-auto mt-8 mb-6">
-                <a href="/work" className="font-rethink text-gray-500 hover:text-gray-900 transition duration-200 ease-in-out">&larr; Back</a>
+                <a href="/work" className="font-figtree text-gray-500 hover:text-gray-900 transition duration-200 ease-in-out">&larr; Back</a>
             </div>
             <div className="max-w-3xl mx-auto px-4">
                 <div>
                     <h1 className="font-lora text-3xl mb-2">GiveBackKids</h1>
-                    <h2 className="font- text-med mb-8">Teaching design thinking to five-year-olds</h2>
+                    <h2 className="font-figtree font-light text-med mb-8">Teaching design thinking to five-year-olds</h2>
                 </div>
                 <div className="mb-12">
                     <div className="mb-8">
@@ -90,7 +90,7 @@ export default function GiveBackKids() {
                         funding from The Columbus Foundation to pay facilitators, recruit volunteers, and train teachers on design principles. 
                         Learn more about our partnership below.`}
                     />
-                    <div className="flex justify-center">
+                    <div className="flex justify-center pb-8">
                         <a className={GBKLinkStyle} href="https://givebackhack.notion.site/GiveBackKids-d00a04322613461eafa81c0db7b771c1">Check out GBK &#8599;</a>
                     </div>
                 </div>

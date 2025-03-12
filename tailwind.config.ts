@@ -19,6 +19,8 @@ const config: Config = {
         viga: ["Viga", "sans-serif"],
         rethink: ["Rethink Sans", "sans-serif"],
         lora: ["Lora", "serif"],
+        poppins: ["Poppins", "sans-serif"],
+        figtree: ["Figtree", "sans-serif"],
       },
     },
   },

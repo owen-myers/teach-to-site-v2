@@ -13,7 +13,7 @@ export default function Contact() {
             <div className="mr-8 flex-shrink-0">
                 <Image src={ Envelope } alt="An envelope." width={18} height={18}/>
             </div>
-            <p className="text-center font-rethink text-md">owen@iukaimpact.com</p>
+            <p className="text-center font-figtree text-md">owen@iukaimpact.com</p>
         </div>
 
     );
