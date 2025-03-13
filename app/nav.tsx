@@ -37,9 +37,6 @@ export default function Nav() {
 
                     {/* Desktop menu */}
                     <div className="hidden sm:flex items-center">
-                        <Link href="/philosophy" className={navLinkClass}>
-                            <span className="group-hover:translate-x-1 transition-transform duration-300 inline-block">Philosophy</span>
-                        </Link>
                         <Link href="/work" className={navLinkClass}>
                             <span className="group-hover:translate-x-1 transition-transform duration-300 inline-block">Work</span>
                         </Link>
@@ -63,13 +60,6 @@ export default function Nav() {
                     </button>
 
                     <div className="flex flex-col pt-20 px-6 space-y-6">
-                        <Link 
-                            href="/philosophy" 
-                            className="relative overflow-hidden group transition-colors duration-300 ease-in-out hover:text-gray-500"
-                            onClick={() => setIsMenuOpen(false)}
-                        >
-                            <span className="inline-block transition-transform duration-300 group-hover:translate-x-2">Philosophy</span>
-                        </Link>
                         <Link 
                             href="/work" 
                             className="relative overflow-hidden group transition-colors duration-300 ease-in-out hover:text-gray-500"
