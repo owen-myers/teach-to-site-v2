@@ -14,7 +14,7 @@ export default function Home() {
               <h1 className="font-lora text-5xl mb-6">Understand your customers as humans</h1>
               <p className="font-figtree font-light text-lg mb-8 leading-relaxed">
                 A product partner for teams who want to learn 
-                from their customers and embrace experimentation as a growth lever.
+                from their customers and embrace experimentation as a growth lever
               </p>
               <div className="mb-20">
                 <Link href="https://calendly.com/owen-iukaimpact/30min">
