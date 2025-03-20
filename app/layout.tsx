@@ -1,6 +1,7 @@
 import Image from "next/image";
 import TeachToScribble from "../public/TeachTo_Scribble_Transparent.png";
 import Nav from "./nav";
+import Footer from "./footer";
 import "./globals.css";
 import { Metadata } from "next";
 
@@ -26,6 +27,7 @@ export default function RootLayout({
       <body >
         <Nav />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

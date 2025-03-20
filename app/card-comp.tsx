@@ -9,7 +9,7 @@ interface CardProps {
 const Card: React.FC<CardProps & { showArrow?: boolean }> = ({ title, subtitle, showArrow }) => {
     return (
         <div className="group relative max-w-72 max-h-100 rounded-lg border-2 border-black overflow-hidden 
-        transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl hover:bg-gray-50">
+        transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
             {showArrow && (
                 <div className="absolute top-4 right-4 w-6 h-6 flex items-center justify-center
                     transform transition-transform duration-300 ease-out
