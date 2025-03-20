@@ -40,10 +40,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-black text-white py-20 m-4 md:m-20 rounded-xl">
-        <div className="flex justify-center">
-          <div className="w-[80%] md:max-w-[750px]">
-            <div className="flex flex-col items-center text-center">
+      <div className="flex justify-center items-center">
+        <div className="bg-black text-white py-20 m-4 rounded-xl max-w-[1000px] pl-12 pr-12">
+          <div className="w-full">
+            <div className="flex flex-col items-center text-center md:max-w-[765px]">
               <div>
                 <h2 className="font-lora text-3xl mb-6">Philosophy</h2>
                 <p className="font-figtree font-light text-md mb-6 leading-relaxed text-left">
@@ -60,7 +60,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center md:flex-row md:justify-center gap-8 md:gap-12 mt-16">
+      <div className="flex flex-col items-center md:flex-row md:justify-center gap-8 md:gap-12 mt-20">
         <div className="w-full md:w-[90%]">
           <p className="text-3xl text-black font-lora mb-8 text-center">Partners</p>
           <div className="flex flex-col items-center md:flex-row md:justify-center gap-8 md:gap-20 mb-12">
