@@ -1,27 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.iukaimpact.com</loc>
     <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.iukaimpact.com/og-image.jpg</image:loc>
+      <image:title>Iuka - Human-Centered Product Partner</image:title>
+      <image:caption>Iuka brings innovation frameworks to all organizations</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.iukaimpact.com/work</loc>
     <lastmod>2024-03-21</lastmod>
-  </url>
-  <url>
-    <loc>https://www.iukaimpact.com/philosophy</loc>
-    <lastmod>2024-03-17</lastmod>
-  </url>
-  <url>
-    <loc>https://www.iukaimpact.com/contact</loc>
-    <lastmod>2024-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.iukaimpact.com/work-og-image.jpg</image:loc>
+      <image:title>Our Work - Iuka</image:title>
+      <image:caption>Explore our portfolio of human-centered design projects</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.iukaimpact.com/work/givebackkids</loc>
     <lastmod>2024-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.iukaimpact.com/givebackkids-og-image.jpg</image:loc>
+      <image:title>GiveBackKids - Teaching design thinking to five-year-olds</image:title>
+      <image:caption>Our partnership with GiveBackHack to teach design thinking in elementary schools</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.iukaimpact.com/work/map</loc>
-    <lastmod>2025-03-05</lastmod>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.iukaimpact.com/map-og-image.jpg</image:loc>
+      <image:title>MAP - Mobility Autonomy Program</image:title>
+      <image:caption>GPT-assisted aggregation of accessible transit resources</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.iukaimpact.com/contact</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.iukaimpact.com/contact-og-image.jpg</image:loc>
+      <image:title>Contact Us - Iuka</image:title>
+      <image:caption>Get in touch with Iuka to discuss your project</image:caption>
+    </image:image>
   </url>
 </urlset>
