@@ -41,7 +41,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <div className="bg-black text-white py-20 m-4 rounded-xl max-w-[1000px] pl-12 pr-12">
+        <div className="border border-black py-12 m-4 rounded-xl max-w-[1000px] pl-12 pr-12">
           <div className="w-full">
             <div className="flex flex-col items-center text-center md:max-w-[765px]">
               <div>
