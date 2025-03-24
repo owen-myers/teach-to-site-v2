@@ -19,7 +19,7 @@ export default function Home() {
               <div className="mb-20">
                 <Link href="https://calendly.com/owen-iukaimpact/30min">
                   <button className="group relative inline-flex items-center justify-center px-6 py-3 font-figtree text-md
-                    overflow-hidden border-2 border-black rounded-xl bg-transparent
+                    overflow-hidden border border-black rounded-xl bg-transparent
                     transition-all duration-400 ease-in-out
                     hover:bg-black hover:text-white
                     focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">
@@ -40,27 +40,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center">
-        <div className="border border-black py-12 m-4 rounded-xl max-w-[1000px] pl-12 pr-12">
-          <div className="w-full">
-            <div className="flex flex-col items-center text-center md:max-w-[765px]">
-              <div>
-                <h2 className="font-lora text-3xl mb-6">Philosophy</h2>
-                <p className="font-figtree font-light text-md mb-6 leading-relaxed text-left">
-                  We believe in the power of human-centered design to create meaningful impact. 
-                  Our approach combines deep user research with iterative experimentation to build 
-                  products that truly serve their users.
-                </p>
-                <p className="font-figtree font-light text-md leading-relaxed text-left">
-                  Every project starts with understanding the human behind the user, 
-                  and every solution is tested with real people to ensure it meets their needs.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="flex flex-col items-center md:flex-row md:justify-center gap-8 md:gap-12 mt-20">
+      <div className="flex flex-col items-center md:flex-row md:justify-center gap-8 md:gap-12 mt-8">
         <div className="w-full md:w-[90%]">
           <p className="text-3xl text-black font-lora mb-8 text-center">Partners</p>
           <div className="flex flex-col items-center md:flex-row md:justify-center gap-8 md:gap-20 mb-12">

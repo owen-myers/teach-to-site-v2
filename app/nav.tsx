@@ -11,8 +11,8 @@ export default function Nav() {
     const navLinkClass = "relative mr-8 transition-colors duration-300 ease-in-out group hover:text-gray-600 after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-black after:left-0 after:-bottom-1 after:rounded-full after:transform after:scale-x-0 after:origin-right after:transition-transform after:duration-300 after:ease-out group-hover:after:scale-x-100 group-hover:after:origin-left";
 
     return (
-        <div className="flex justify-center w-full">
-            <nav className="font-lora text-black py-8 flex items-center justify-between px-4 w-full max-w-[66%]">
+        <div className="flex justify-center w-full pt-6">
+            <nav className="font-lora text-black flex items-center justify-between pl-4 w-full max-w-[66%]">
                 <div>
                     <Link href="/" className="flex items-center group">
                         <Image src={ TeachToScribble } alt="Logo with lots of lines." width={60} height={60} className="transition-transform duration-300 ease-out group-hover:scale-105" />
