@@ -21,6 +21,7 @@ const config: Config = {
         lora: ["Lora", "serif"],
         poppins: ["Poppins", "sans-serif"],
         figtree: ["Figtree", "sans-serif"],
+        manrope: ["Manrope", "sans-serif"],
       },
     },
   },

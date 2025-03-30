@@ -11,31 +11,31 @@ export const metadata: Metadata = {
                 systems to help autistic adults live independent lives.`
 };
 
-const MAPLinkStyle = "font-figtree text-md text-blue-600 underline hover:text-blue-800 transition duration-200 ease-in-out";
+const MAPLinkStyle = "font-rethink text-sm text-blue-600 underline hover:text-blue-800 transition duration-200 ease-in-out";
 
 export default function MobilityAutonomyProgram() {
     return (
         <div>
             <div className="max-w-3xl px-4 mx-auto mt-8 mb-6">
-                <a href="/work" className="font-figtree text-gray-500 hover:text-gray-900 transition duration-200 ease-in-out">&larr; Back</a>
+                <a href="/" className="font-rethink text-gray-500 hover:text-gray-900 transition duration-200 ease-in-out">&larr; Back</a>
             </div>
             <div className="max-w-3xl mx-auto px-4">
                 <div>
-                    <h1 className="font-lora text-3xl mb-2">Mobility Autonomy Program</h1>
-                    <h2 className="font-figtree font-light text-md mb-8">GPT-assisted aggregation of accessible transit resources</h2>
+                    <h1 className="font-manrope text-3xl mb-2">Mobility Autonomy Program</h1>
+                    <h2 className="font-rethink font-light text-md mb-8">GPT-assisted aggregation of accessible transit resources</h2>
                 </div>
                 <div className="mb-12">
                     <div className ="flex justify-left items-center mb-4">
                         <div className="mr-4 flex-shrink-0">
                         <Image src={ Stopwatch } alt="A stopwatch." width={16} height={16}/>
                         </div>
-                    <p className="font-lora text-med">10 weeks</p>
+                    <p className="font-manrope text-sm">10 weeks</p>
                     </div>
                     <div className ="flex justify-left items-center mb-4">
                         <div className="mr-4 flex-shrink-0">
                         <Image src={ Package } alt="A wrapped package." width={16} height={16}/>
                         </div>
-                    <p className="font-lora text-med">Prototype</p>
+                    <p className="font-manrope text-sm">Prototype</p>
                     </div>
                 </div>
                 <div>

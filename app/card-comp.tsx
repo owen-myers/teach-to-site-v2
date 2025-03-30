@@ -8,7 +8,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps & { showArrow?: boolean }> = ({ title, subtitle, showArrow }) => {
     return (
-        <div className="group relative max-w-72 max-h-100 rounded-lg border-2 border-black overflow-hidden 
+        <div className="group relative max-w-72 max-h-100 rounded-lg border border-gray-200 bg-white shadow-md overflow-hidden 
         transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
             {showArrow && (
                 <div className="absolute top-4 right-4 w-6 h-6 flex items-center justify-center
@@ -30,14 +30,12 @@ const Card: React.FC<CardProps & { showArrow?: boolean }> = ({ title, subtitle, 
                 </div>
             )}
             <div className="px-6 py-4 relative">
-                <div className="font-lora text-2xl mb-4 transition-transform duration-300 ease-out group-hover:translate-x-1">
+                <div className="font-manrope text-lg mb-4 transition-transform duration-300 ease-out group-hover:translate-x-1">
                     {title}
                 </div>
-                <p className="font-figtree font-light text-md text-gray-600 transition-all duration-300 ease-out group-hover:text-black">
+                <p className="font-rethink font-light text-sm text-gray-600 transition-all duration-300 ease-out group-hover:text-black">
                     {subtitle}
                 </p>
-                <div className="absolute bottom-0 left-0 w-full h-1 bg-black transform scale-x-0 origin-left
-                    transition-transform duration-300 ease-out group-hover:scale-x-100" />
             </div>
         </div>
     );
