@@ -8,7 +8,7 @@ import GBH_Curriculum_Map from "../../../public/GBH_Curriculum_Map.svg";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Iuka — GiveBackKids",
+  title: "Punch Card — GiveBackKids",
   description: `Our partnership with GiveBackHack. GiveBackKids empowers teachers to
                 lead design thinking lessons in elementary schools in Columbus, Ohio.`
 };

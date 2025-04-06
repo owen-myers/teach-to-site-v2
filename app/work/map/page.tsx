@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Iuka - MAP",
+  title: "Punch Card - MAP",
   description: `Our research work for the Mobility Autonomy Program (MAP) founded by
                 Autistic Self-Reliance Support Network (ASR). ASR is building multi-modal 
                 systems to help autistic adults live independent lives.`
