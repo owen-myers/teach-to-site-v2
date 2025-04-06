@@ -12,7 +12,6 @@ export default function Nav() {
                     <Image src={TeachToScribble} alt="Logo with lots of lines." width={60} height={60} />
                     <div>
                         <div className="text-xl">Punch Card</div>
-                        <p className="text-[10px] text-gray-500 font-light">Product</p>
                     </div>
                 </Link>
             </nav>
