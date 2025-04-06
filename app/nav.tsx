@@ -11,8 +11,8 @@ export default function Nav() {
                 <Link href="/" className="flex items-center">
                     <Image src={TeachToScribble} alt="Logo with lots of lines." width={60} height={60} />
                     <div>
-                        <div>Iuka</div>
-                        <p className="font-rethink font-light text-gray-500 text-xs">(eye-you-kuh)</p>
+                        <div className="text-xl">Punch Card</div>
+                        <p className="text-[10px] text-gray-500 font-light">Product</p>
                     </div>
                 </Link>
             </nav>

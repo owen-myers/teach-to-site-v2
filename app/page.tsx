@@ -1,14 +1,15 @@
 'use client';
 
-import Link from 'next/link';
-import Image from 'next/image';
-import GBHLogo from "../public/GBH_Logo_Sized.svg";
-import SEACLogo from "../public/SEAC_Logo_Sized.svg";
-import ASRLogo from "../public/ASR_Logo_Sized.svg";
-import Card from './card-comp';
+import Link from 'next/link'; 
+import GBKHeader from "../public/GBH_Header_Portfolio.svg";
+import Card from './components/card-comp';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import NotebookGrid from './components/NotebookGrid';
+import TeachToMockup from "../public/TeachTo_MockUp_Header.png";
+import GBHKidsMockup from "../public/GBH_Kids_MockUp_Header.png";
+import ASRLogo from "../public/ASR_Logo_Sized.svg";
 
 export default function Home() {
   useEffect(() => {
@@ -20,21 +21,25 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="w-full">
+    <div className="w-full relative">
       <div className="flex justify-center w-full">
-        <div className="md:max-w-[900px] border border-gray-200 rounded-2xl shadow-xl ml-4 mr-4 mb-12 mt-4">
-          <div className="flex flex-col items-center text-center">
+        <div className="md:max-w-[900px] border border-gray-200 rounded-2xl ml-4 mr-4 mb-12 mt-4 relative">
+          <NotebookGrid className="inset-0" />
+          <div className="flex flex-col pl-8">
             <div className="w-[95%] md:w-[60%]">
               <div data-aos="fade-up">
-                <h1 className="font-manrope text-5xl mb-4 leading-[1.4] relative pt-20">
-                  Understand your customers as humans
-                  <div className="hidden md:block absolute -right-9 w-2 h-2 bg-green-800 rounded-full"></div>
-                  <div className="hidden md:block absolute -right-8 pointer-events-none">
+                <h1 className="font-manrope text-[2.8rem] mb-6 leading-[1.4] relative pt-20 font-light">
+                  An all-in-one partner for building from scratch
+                  <div className="hidden md:block absolute -right-[230px] top-[102px] w-28 h-28 border border-green-800 rounded-full"></div>
+                  <div className="hidden md:block absolute -right-[220px] top-[117px] w-24 h-24 border border-green-800 rounded-full"></div>
+                  <div className="hidden md:block absolute -right-[198px] top-[148px] w-16 h-16 border border-green-800 rounded-full"></div>
+                  <div className="hidden md:block absolute -right-[161px] top-[203px] w-2 h-2 bg-green-800 rounded-full"></div>
+                  <div className="hidden md:block absolute -right-[157px] pointer-events-none">
                     <div className="relative" style={{ transform: 'rotate(8deg)' }}>
                       {[...Array(12)].map((_, i) => {
                         const angle = i * 2;
                         const totalAngle = angle + 8;
-                        const height = 966 / Math.cos(totalAngle * Math.PI / 180);
+                        const height = 1085 / Math.cos(totalAngle * Math.PI / 180);
                         return (
                           <div
                             key={i}
@@ -51,9 +56,12 @@ export default function Home() {
                 </h1>
               </div>
               <div data-aos="fade-up" data-aos-delay="200">
-                <p className="font-rethink font-light text-lg mb-12 leading-relaxed text-gray-600">
-                  A product partner for teams who want to learn 
-                  from their customers and embrace experimentation as a growth lever
+                <p className="font-rethink text-lg leading-relaxed text-gray-600 font-bold">
+                Early-stage teams need more than just a monthly check-in.
+                </p>
+                <p className="font-rethink text-lg mb-8 leading-relaxed text-gray-600">
+                Punch Card fills in the gaps in fundraising, product, and operations 
+                to help builders maintain early momentum.
                 </p>
               </div>
               <div data-aos="fade-up" data-aos-delay="200">
@@ -67,7 +75,7 @@ export default function Home() {
                       <span className="relative flex items-center">
                         Let's talk
                         <svg 
-                          className="ml-2 w-4 h-4 transition-transform duration-300 ease-out transform group-hover:translate-x-1" 
+                          className="ml-2 Hands-on fractional operator for teams validating,  early-stage ideasw-4 h-4 transition-transform duration-300 ease-out transform group-hover:translate-x-1" 
                           fill="none" 
                           stroke="currentColor" 
                           viewBox="0 0 24 24">
@@ -88,9 +96,11 @@ export default function Home() {
               <div className="flex flex-col md:flex-row justify-center items-center mb-14 md:space-x-4 mb-64">
                 <Link href="/work/givebackkids">
                   <Card
-                    title="GiveBackKids"
-                    subtitle="Teaching design thinking to five-year-olds"
+                    title="GiveBackHack Kids"
+                    subtitle="Teaching entrepreneurship to five-year-olds"
                     showArrow={false}
+                    image={GBHKidsMockup}
+                    altText="Picture of a GiveBackHack Kids lesson"
                   />
                 </Link>
                 <br />
@@ -99,6 +109,8 @@ export default function Home() {
                     title="TeachTo"
                     subtitle="IEP goal-writing prototype for SPED teachers"
                     showArrow={true}
+                    image={TeachToMockup}
+                    altText="Picture of the TeachTo product screen"
                   />
                 </Link>
                 <br />
@@ -107,28 +119,13 @@ export default function Home() {
                     title="MAP"
                     subtitle="Find accessible transit options to any event"
                     showArrow={false}
+                    image={ASRLogo}
+                    altText="Picture of the ASR logo"
                   />
                 </Link>
               </div>
             </div>
           </div>
-          <div className="w-full mx-auto border-b border-gray-200 mt-14"></div>
-            <div className="pb-2 pt-2">
-              <h2 className="font-manrope font-bold text-sm pl-2">Iuka</h2>
-              <p className="font-rethink text-[10px] text-gray-600 mb-12 pl-2">New York, NY</p>
-              <div className="flex justify-between items-center pl-2">
-                <div>
-                  <Link className="font-rethink text-xs text-gray-600 underline" href="mailto:owen@iukaimpact.com">Get in touch</Link>
-                </div>
-                <div className="flex items-center">
-                  <div className="flex space-x-1 pr-2">
-                    <div className="w-5 h-5 rounded-full bg-gray-200 shadow-inner"></div>
-                    <div className="w-5 h-5 rounded-full bg-gray-200 shadow-inner"></div>
-                    <div className="w-5 h-5 rounded-full bg-gray-200 shadow-inner"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
         </div>
       </div>
     </div>

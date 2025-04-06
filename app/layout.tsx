@@ -4,60 +4,62 @@ import Nav from "./nav";
 import Footer from "./footer";
 import "./globals.css";
 import { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: {
-    default: "Iuka | Human-Centered Product Partner",
-    template: "%s — Iuka",
+    default: "Punch Card | Product Partner",
+    template: "%s — Punch Card",
   },
-  description: `Iuka brings innovation frameworks to all organizations.
-  Embedded partnerships to meet users, identify opportunities, and manage risk burden
-  of new internal ventures.`,
+  description: `An all-in-one partner for building from scratch.
+  Early-stage teams need more than just a monthly check-in.
+  Punch Card fills in the gaps in fundraising, product, and operations 
+  to help builders maintain early momentum.`,
   keywords: [
     "product development",
-    "user research",
-    "human-centered design",
-    "innovation consulting",
-    "design thinking",
-    "user experience",
-    "UX research",
+    "startup consulting",
+    "early-stage teams",
+    "fundraising",
     "product strategy",
-    "experimentation",
-    "customer insights"
+    "operations",
+    "builder support",
+    "startup partner",
+    "product partner",
+    "early momentum"
   ],
   authors: [{ name: "Owen Myers" }],
   creator: "Owen Myers",
-  publisher: "Iuka",
+  publisher: "Punch Card",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://iukaimpact.com"),
+  metadataBase: new URL("https://www.punchcardproduct.com"),
   alternates: {
-    canonical: "https://iukaimpact.com",
+    canonical: "https://www.punchcardproduct.com",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://iukaimpact.com",
-    siteName: "Iuka",
-    title: "Iuka | Human-Centered Product Partner",
-    description: "A product partner for teams who want to learn from their customers and embrace experimentation as a growth lever.",
+    url: "https://www.punchcardproduct.com",
+    siteName: "Punch Card",
+    title: "Punch Card | Product Partner",
+    description: "An all-in-one partner for building from scratch. Early-stage teams need more than just a monthly check-in.",
     images: [
       {
-        url: "https://iukaimpact.com/og-image.jpg",
+        url: "https://www.punchcardproduct.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Iuka - Human-Centered Product Partner",
+        alt: "Punch Card - Product Partner",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Iuka | Human-Centered Product Partner",
-    description: "A product partner for teams who want to learn from their customers and embrace experimentation as a growth lever.",
-    images: ["https://iukaimpact.com/og-image.jpg"],
+    title: "Punch Card | Product Partner",
+    description: "An all-in-one partner for building from scratch. Early-stage teams need more than just a monthly check-in.",
+    images: ["https://www.punchcardproduct.com/og-image.jpg"],
     creator: "@owenmyers",
   },
   robots: {
@@ -86,7 +88,11 @@ export default function RootLayout({
     <html lang="en" className="h-full">
       <body className="min-h-screen flex flex-col">
         <Nav />
-        <main className="flex-grow">{children}</main>
+        <main className="flex-grow">
+          {children}
+          <Analytics />
+        </main>
+        <Footer />
       </body>
     </html>
   );

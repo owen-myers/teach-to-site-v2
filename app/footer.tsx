@@ -2,24 +2,20 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="w-full border-t border-gray-200 py-8">
+    <footer className="w-full border-t border-gray-200">
       <div className="flex justify-center">
-        <div className="w-[95%] flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
-            <Link href="/" className="font-lora text-lg hover:text-gray-600 transition-colors duration-300">
-              Iuka
-            </Link>
-          </div>
-          <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
-            <Link href="/work" className="font-figtree text-sm text-gray-600 hover:text-black transition-colors duration-300">
-              Work
-            </Link>
-            <Link href="/contact" className="font-figtree text-sm text-gray-600 hover:text-black transition-colors duration-300">
-              Contact
-            </Link>
-            <a href="mailto:owen@iukaimpact.com" className="font-figtree text-sm text-gray-600 hover:text-black transition-colors duration-300">
-              owen@iukaimpact.com
-            </a>
+        <div className="w-[99%]">
+          <div className="pb-2 pt-2">
+            <h2 className="font-manrope font-bold text-sm pl-2">Punch Card</h2>
+            <p className="font-rethink text-[10px] text-gray-600 mb-12 pl-2">New York, NY</p>
+            <div className="flex justify-between items-center pl-2">
+              <div>
+                <Link className="font-rethink text-xs text-gray-600 underline" href="mailto:owen@iukaimpact.com">Get in touch</Link>
+              </div>
+              <div className="pr-2">
+                <p className="font-rethink text-[10px] text-gray-600">© {new Date().getFullYear()} Let Teachers Teach LLC</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

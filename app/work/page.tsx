@@ -1,6 +1,7 @@
-import Card from "../card-comp";
+import Card from "../components/card-comp";
 import Link from "next/link";
 import { Metadata } from 'next';
+import GBKHeader from "../../public/GBH_Header_Portfolio.svg";
 
 
 export const metadata: Metadata = {
@@ -16,6 +17,8 @@ export default function Work() {
                  title="GiveBackKids"
                  subtitle="Teaching design thinking to five-year-olds"
                  showArrow={false}
+                 image={GBKHeader}
+                 altText="GiveBackKids"
                 />
             </Link>
             <br />
@@ -24,6 +27,8 @@ export default function Work() {
                  title="TeachTo"
                  subtitle="An IEP goal-writing prototype for SPED professionals"
                  showArrow={true}
+                 image={GBKHeader}
+                 altText="GiveBackKids"
                 />
             </Link>
             <br />
@@ -32,6 +37,8 @@ export default function Work() {
                  title="MAP"
                  subtitle="GPT-assisted aggregation of accessible transit resources"
                  showArrow={false}
+                 image={GBKHeader}
+                 altText="GiveBackKids"
                 />
             </Link>
         </div>
