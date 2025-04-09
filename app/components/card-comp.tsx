@@ -10,14 +10,14 @@ interface CardProps {
 
 const Card: React.FC<CardProps & { showArrow?: boolean }> = ({ title, subtitle, showArrow, image, altText }) => {
     return (
-        <div className="group relative max-w-72 max-h-100 rounded-lg border border-gray-200 bg-white overflow-hidden 
+        <div className="group relative max-w-72 max-h-100 rounded-md border border-black bg-white overflow-hidden 
         transition-all duration-300 ease-in-out transform hover:-translate-y-1">
             <Image 
                 src={image} 
                 alt={altText} 
                 width={288} 
                 height={162} 
-                className="w-full h-[162px] object-cover"
+                className="w-full h-[162px] object-cover "
             />
             {showArrow && (
                 <div className="absolute top-4 right-4 w-6 h-6 flex items-center justify-center

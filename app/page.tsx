@@ -26,52 +26,27 @@ export default function Home() {
   return (
     <div className="w-full relative">
       <div className="flex justify-center w-full">
-        <div className="md:max-w-[900px] border border-gray-200 rounded-2xl ml-4 mr-4 mb-12 mt-4 relative">
+        <div className="md:max-w-[1100px] border border-black rounded-md ml-4 mr-4 mb-12 mt-4 relative sub-bg">
           <NotebookGrid className="inset-0" />
-          <div className="flex flex-col pl-8">
-            <div className="w-[95%] md:w-[60%]">
+          <div className="flex flex-col pl-8 items-center">
+            <div className="w-[95%] md:w-[60%] text-center">
               <div data-aos="fade-up">
-                <h1 className="font-manrope text-[2.8rem] mb-6 leading-[1.4] relative pt-20 font-light">
+                <h1 className="font-manrope text-[3rem] mb-8 leading-[1.4] relative pt-20 font-light">
                   An all-in-one partner for building from scratch
-                  <div className="hidden md:block absolute -right-[230px] top-[102px] w-28 h-28 border border-green-800 rounded-full"></div>
-                  <div className="hidden md:block absolute -right-[220px] top-[117px] w-24 h-24 border border-green-800 rounded-full"></div>
-                  <div className="hidden md:block absolute -right-[198px] top-[148px] w-16 h-16 border border-green-800 rounded-full"></div>
-                  <div className="hidden md:block absolute -right-[161px] top-[203px] w-2 h-2 bg-green-800 rounded-full"></div>
-                  <div className="hidden md:block absolute -right-[157px] pointer-events-none">
-                    <div className="relative" style={{ transform: 'rotate(8deg)' }}>
-                      {[...Array(12)].map((_, i) => {
-                        const angle = i * 1.2;
-                        const totalAngle = angle + 8;
-                        const height = 1587 / Math.cos(totalAngle * Math.PI / 180);
-                        return (
-                          <div
-                            key={i}
-                            className="absolute w-[1px] origin-top bg-green-800 opacity-40"
-                            style={{ 
-                              transform: `rotate(${angle}deg)`,
-                              height: `${height}px`
-                            }}
-                          />
-                        );
-                      })}
-                    </div>
-                  </div>
                 </h1>
               </div>
               <div data-aos="fade-up" data-aos-delay="200">
-                <p className="font-rethink text-lg leading-relaxed text-gray-600 font-bold">
+                <p className="font-rethink text-lg mb-8 leading-relaxed mx-auto max-w-lg text-center">
                 Early-stage teams need more than just a monthly check-in.
-                </p>
-                <p className="font-rethink text-lg mb-8 leading-relaxed text-gray-600">
                 Punch Card fills in the gaps in product, fundraising, and operations 
-                to help builders maintain early momentum.
+                to help builders spin the flywheel.
                 </p>
               </div>
               <div data-aos="fade-up" data-aos-delay="200">
-                <div className="mb-64">
+                <div className="mb-24">
                   <Link href="https://calendly.com/owen-iukaimpact/30min">
                     <button className="group relative inline-flex items-center justify-center px-6 py-3 font-rethink text-md
-                      overflow-hidden border border-black rounded-xl bg-black text-white
+                      overflow-hidden border border-black rounded-md bg-black text-white
                       transition-all duration-400 ease-in-out
                       hover:bg-transparent hover:text-black
                       focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">
@@ -91,7 +66,7 @@ export default function Home() {
                   {/* Partners Section */}
                   <div className="mt-12" data-aos="fade-up" data-aos-delay="300">
                     <p className="font-rethink text-xs mb-3">Trusted by</p>
-                    <div className="flex flex-wrap items-center gap-2 ">
+                    <div className="flex flex-wrap items-center gap-2 justify-center">
                       <div className="h-6">
                         <Image src={GBHLogo} alt="GiveBackHack" width={140} height={60} />
                       </div>
@@ -109,10 +84,10 @@ export default function Home() {
           </div>
           
           {/* Services Section */}
-          <div className="p-8 mb-64 mt-8">
+          <div className="p-8 mb-24 mt-8">
             <div data-aos="fade-up" data-aos-delay="400">
               <h2 className="font-manrope font-bold text-lg mb-4 text-start">Where we help</h2>
-              <div className="bg-white rounded-xl p-8 border border-gray-200">
+              <div className="bg-white rounded-md p-8 border border-black">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <div>
                     <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
@@ -153,7 +128,7 @@ export default function Home() {
               <h2 className="font-manrope font-bold text-lg mb-4 md:pl-1">Selected work</h2>
             </div>
             <div data-aos="fade-up" data-aos-delay="800">
-              <div className="flex flex-col md:flex-row justify-center items-center mb-14 md:space-x-4">
+              <div className="flex flex-col md:flex-row justify-center items-center mb-14 md:space-x-[5.2rem]">
                 <Link href="/work/givebackkids">
                   <Card
                     title="GiveBackHack Kids"

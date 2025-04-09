@@ -5,7 +5,7 @@ import GBKHeader from "../../public/GBH_Header_Portfolio.svg";
 
 
 export const metadata: Metadata = {
-  title: "Iuka - Work",
+  title: "Punch Card - Work",
   description: `Check out our previous consulting, design, and research projects.`
 };
 

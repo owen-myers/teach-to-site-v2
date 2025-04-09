@@ -3,7 +3,7 @@ import Envelope from "../../public/envelope.png";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Iuka - Contact",
+  title: "Punch Card - Contact",
   description: `Reach out to us here.`
 };
 
