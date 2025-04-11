@@ -26,13 +26,13 @@ export default function Home() {
   return (
     <div className="w-full relative">
       <div className="flex justify-center w-full">
-        <div className="md:max-w-[1100px] border border-black rounded-md ml-4 mr-4 mb-12 mt-4 relative sub-bg">
+        <div className="md:max-w-[1150px] border border-black rounded-md ml-4 mr-4 mb-12 mt-4 relative sub-bg">
           <NotebookGrid className="inset-0" />
           <div className="flex flex-col pl-8 items-center">
             <div className="w-[95%] md:w-[60%] text-center">
               <div data-aos="fade-up">
-                <h1 className="font-manrope text-[3rem] mb-8 leading-[1.4] relative pt-20 font-light">
-                  An all-in-one partner for building from scratch
+                <h1 className="font-manrope text-[3.1rem] mb-8 leading-[1.4] relative pt-20 font-light">
+                  An all-in-one partner for building exceptional products
                 </h1>
               </div>
               <div data-aos="fade-up" data-aos-delay="200">
@@ -86,7 +86,8 @@ export default function Home() {
           {/* Services Section */}
           <div className="p-8 mb-24 mt-8">
             <div data-aos="fade-up" data-aos-delay="400">
-              <h2 className="font-manrope font-bold text-lg mb-4 text-start">Where we help</h2>
+              <h2 className="font-manrope font-bold text-lg text-start md:pl-1">Where we help</h2>
+              <p className="font-rethink text-sm mb-6 md:pl-1">Empathetic, embedded partnerships to shorten feedback loops</p>
               <div className="bg-white rounded-md p-8 border border-black">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <div>
@@ -96,7 +97,7 @@ export default function Home() {
                       </svg>
                     </div>
                     <h3 className="font-manrope font-bold text-lg mb-2">All things product</h3>
-                    <p className="font-rethink text-sm text-gray-600">UXR research, piloting, prototyping, strategy, and roadmapping.</p>
+                    <p className="font-rethink text-sm text-gray-600">UXR research, piloting, prototyping, strategy, and roadmapping</p>
                   </div>
                   
                   <div>
@@ -106,7 +107,7 @@ export default function Home() {
                       </svg>
                     </div>
                     <h3 className="font-manrope font-bold text-lg mb-2">Scrappy fundraising</h3>
-                    <p className="font-rethink text-sm text-gray-600">Outreach, pitch support, relationship-building, and branding.</p>
+                    <p className="font-rethink text-sm text-gray-600">Outreach, pitch support, relationship-building, and branding</p>
                   </div>
                   
                   <div>
@@ -115,20 +116,21 @@ export default function Home() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
                       </svg>
                     </div>
-                    <h3 className="font-manrope font-bold text-lg mb-2">Operations</h3>
-                    <p className="font-rethink text-sm text-gray-600">Build startup infrastructure from the beginning and scale as you grow.</p>
+                    <h3 className="font-manrope font-bold text-lg mb-2">Flexible ops</h3>
+                    <p className="font-rethink text-sm text-gray-600">Build startup infrastructure from the beginning and scale as you grow</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           
-          <div className="p-8">
-            <div data-aos="fade-up" data-aos-delay="600" className="flex justify-center md:justify-start">
-              <h2 className="font-manrope font-bold text-lg mb-4 md:pl-1">Selected work</h2>
+          <div className="p-8" data-aos="fade-up" data-aos-delay="800">
+            <div className="flex flex-col justify-center md:justify-start">
+              <h2 className="font-manrope font-bold text-lg md:pl-1">Selected work</h2>
+              <p className="font-rethink text-sm mb-6 md:pl-1">Startups, nonprofits, and established ventures</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="800">
-              <div className="flex flex-col md:flex-row justify-center items-center mb-14 md:space-x-[5.2rem]">
+            <div>
+              <div className="flex flex-col md:flex-row justify-center items-center md:space-x-[5.2rem]">
                 <Link href="/work/givebackkids">
                   <Card
                     title="GiveBackHack Kids"
