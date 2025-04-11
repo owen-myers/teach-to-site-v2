@@ -26,12 +26,12 @@ export default function Home() {
   return (
     <div className="w-full relative">
       <div className="flex justify-center w-full">
-        <div className="md:max-w-[1150px] border border-black rounded-md ml-4 mr-4 mb-12 mt-4 relative sub-bg">
+        <div className="md:max-w-[1175px] border border-black rounded-md ml-4 mr-4 mb-8 mt-4 relative sub-bg">
           <NotebookGrid className="inset-0" />
-          <div className="flex flex-col pl-8 items-center">
+          <div className="flex flex-col pl-8 pr-8 items-center">
             <div className="w-[95%] md:w-[60%] text-center">
               <div data-aos="fade-up">
-                <h1 className="font-manrope text-[3.1rem] mb-8 leading-[1.4] relative pt-20 font-light">
+                <h1 className="font-manrope text-[2.3rem] sm:text-[3.1rem] mb-8 leading-[1.4] relative pt-20 font-light">
                   An all-in-one partner for building exceptional products
                 </h1>
               </div>
@@ -130,7 +130,7 @@ export default function Home() {
               <p className="font-rethink text-sm mb-6 md:pl-1">Startups, nonprofits, and established ventures</p>
             </div>
             <div>
-              <div className="flex flex-col md:flex-row justify-center items-center md:space-x-[5.2rem]">
+              <div className="flex flex-col md:flex-row justify-center items-center md:space-x-[6.7rem]">
                 <Link href="/work/givebackkids">
                   <Card
                     title="GiveBackHack Kids"
