@@ -14,14 +14,18 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        castoro: ["Castoro", "serif"],
-        chivo: ["Chivo", "sans-serif"],
-        viga: ["Viga", "sans-serif"],
         rethink: ["Rethink Sans", "sans-serif"],
-        lora: ["Lora", "serif"],
-        poppins: ["Poppins", "sans-serif"],
-        figtree: ["Figtree", "sans-serif"],
         manrope: ["Manrope", "sans-serif"],
+        overpass: ["Overpass Mono", "sans-serif"],
+      },
+      animation: {
+        float: 'float 6s ease-in-out infinite',
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0) scale(1)' },
+          '50%': { transform: 'translateY(-10px) scale(1.05)' },
+        },
       },
     },
   },

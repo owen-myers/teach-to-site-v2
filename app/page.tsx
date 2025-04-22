@@ -29,10 +29,10 @@ export default function Home() {
         <div className="md:max-w-[1175px] border border-black rounded-md ml-4 mr-4 mb-8 mt-4 relative sub-bg">
           <NotebookGrid className="inset-0" />
           <div className="flex flex-col pl-8 pr-8 items-center">
-            <div className="w-[95%] md:w-[60%] text-center">
+            <div className="w-[95%] md:w-[75%] text-center">
               <div data-aos="fade-up">
-                <h1 className="font-manrope text-[2.3rem] sm:text-[3.1rem] mb-8 leading-[1.4] relative pt-20 font-light">
-                  An all-in-one partner for building exceptional products
+                <h1 className="font-manrope text-[2.3rem] sm:text-[3.4rem] mb-8 leading-[1.2] relative pt-20 font-semibold">
+                  Build exceptional digital products
                 </h1>
               </div>
               <div data-aos="fade-up" data-aos-delay="200">
