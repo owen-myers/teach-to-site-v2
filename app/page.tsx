@@ -32,14 +32,13 @@ export default function Home() {
             <div className="w-[95%] md:w-[75%] text-center">
               <div data-aos="fade-up">
                 <h1 className="font-manrope text-[2.3rem] sm:text-[3.4rem] mb-8 leading-[1.2] relative pt-20 font-semibold">
-                  Build exceptional digital products
+                  Build exceptional products for flourishing humans.
                 </h1>
               </div>
               <div data-aos="fade-up" data-aos-delay="200">
                 <p className="font-rethink text-lg mb-8 leading-relaxed mx-auto max-w-lg text-center">
-                Early-stage teams need more than just a monthly check-in.
-                Punch Card fills in the gaps in product, fundraising, and operations 
-                to help builders spin the flywheel.
+                  Impactful research, experiments at pace, and operational flexibility to help builders
+                  spin the flywheel.
                 </p>
               </div>
               <div data-aos="fade-up" data-aos-delay="200">
