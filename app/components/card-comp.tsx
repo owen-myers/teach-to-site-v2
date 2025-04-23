@@ -39,10 +39,10 @@ const Card: React.FC<CardProps & { showArrow?: boolean }> = ({ title, subtitle, 
                 </div>
             )}
             <div className="px-6 py-4 relative">
-                <div className="font-manrope text-lg mb-2 transition-transform duration-300 ease-out group-hover:translate-x-1">
+                <div className="font-libre text-lg mb-2 transition-transform duration-300 ease-out group-hover:translate-x-1">
                     {title}
                 </div>
-                <p className="font-rethink font-light text-sm text-gray-600 transition-all duration-300 ease-out group-hover:text-black">
+                <p className="font-libre font-light text-sm text-gray-600 transition-all duration-300 ease-out group-hover:text-black">
                     {subtitle}
                 </p>
             </div>

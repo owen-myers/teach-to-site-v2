@@ -16,7 +16,7 @@ const config: Config = {
       fontFamily: {
         rethink: ["Rethink Sans", "sans-serif"],
         manrope: ["Manrope", "sans-serif"],
-        overpass: ["Overpass Mono", "sans-serif"],
+        libre: ["Libre Franklin", "sans-serif"],
       },
       animation: {
         float: 'float 6s ease-in-out infinite',
