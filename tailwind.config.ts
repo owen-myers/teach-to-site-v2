@@ -13,10 +13,17 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "brown": "#2B1409",
+        "cream": "#FAF9F6",
+        "light-brown": "#4F3612",
+        "navy": "#172036",
+      },
       fontFamily: {
         rethink: ["Rethink Sans", "sans-serif"],
         manrope: ["Manrope", "sans-serif"],
-        overpass: ["Overpass Mono", "sans-serif"],
+        libre: ["Libre Franklin", "sans-serif"],
+        lora: ["Lora", "serif"],
       },
       animation: {
         float: 'float 6s ease-in-out infinite',
