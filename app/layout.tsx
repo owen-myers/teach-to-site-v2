@@ -1,8 +1,6 @@
-import Image from "next/image";
-import TeachToScribble from "../public/TeachTo_Scribble_Transparent.png";
-import Nav from "./nav";
 import Footer from "./footer";
 import "./globals.css";
+import Nav from "./nav";
 import { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react"
 
@@ -105,8 +103,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full">
       <body className="min-h-screen flex flex-col">
-        <Nav />
         <main className="flex-grow">
+          <Nav />
           {children}
           <Analytics />
         </main>

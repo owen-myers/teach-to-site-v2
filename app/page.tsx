@@ -11,7 +11,12 @@ import GBHKidsMockup from "../public/GBH_Kids_MockUp_Header.png";
 import ASRLogo from "../public/ASR_Logo_Sized.svg";
 import GBHLogo from "../public/GBH_Logo_Sized.svg";
 import SEACLogo from "../public/SEAC_Logo_Sized.svg";
+import ArrayLogo from "../public/Array_Logo_Sized.svg";
+import OneOneNineLogo from "../public/119_Logo_Sized.svg"
 import Image from 'next/image';
+import BackgroundPattern from './components/BackgroundPattern';
+import ServiceCard from './components/ServicesCard';
+const logoStyle = "w-[40vw] max-w-[200px] min-w-[100px] md:w-[180px] lg:w-[220px] h-auto"
 
 export default function Home() {
   useEffect(() => {
@@ -24,144 +29,41 @@ export default function Home() {
 
   return (
     <div className="w-full relative">
-      <div className="flex w-full justify-center">
-        <div className="flex flex-col max-w-[1200px] w-full">
-          <div className="flex flex-col pl-[clamp(2rem,4vw,4rem)] pr-6 items-center">
-            <div className="w-[98%]">
-              <div data-aos="fade-up" className="lg:w-[750px]">
-                <h1 className="font-libre text-[clamp(2.3rem,6vw,3.8rem)] mb-[clamp(1.2rem,4vh,3rem)] mt-[clamp(5rem,12vh,12rem)] leading-[1.2]">
-                  Build exceptional products for flourishing humans.
-                </h1>
-              </div>
-              <div data-aos="fade-up" data-aos-delay="200" className="lg:w-[600px]">
-                <p className="font-libre text-gray-700 text-[clamp(0.9rem,2vw,1.3rem)] mb-8 leading-relaxed">
-                  Impactful research, experiments at pace, and right-sized software to help builders spin the flywheel.
-                </p>
-              </div>
-              <div data-aos="fade-up" data-aos-delay="200">
-                {/* talk to us button */}
-                <div className="mb-44">
-                  <Link href="https://calendly.com/owen-iukaimpact/30min">
-                    <button className="group relative inline-flex items-center justify-center px-4 py-2 font-libre text-md
-                      overflow-hidden border border-black rounded-md bg-black text-white
-                      transition-all duration-400 ease-in-out
-                      hover:bg-transparent hover:text-black
-                      focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">
-                      <span className="relative flex items-center">
-                        Let's talk
-                        <svg 
-                          className="ml-2 w-4 h-4 transition-transform duration-300 ease-out transform group-hover:translate-x-1" 
-                          fill="none" 
-                          stroke="currentColor" 
-                          viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                        </svg>
-                      </span>
-                    </button>
-                  </Link>
-                  {/* trusted by */}
-                  {/* <div className="mt-12" data-aos="fade-up" data-aos-delay="300">
-                    <p className="font-libre text-xs mb-3">Trusted by</p>
-                    <div className="flex flex-wrap items-center gap-2 justify-center">
-                      <div className="h-6">
-                        <Image src={GBHLogo} alt="GiveBackHack" width={200} height={80} />
-                      </div>
-                      <div className="h-6">
-                        <Image src={ASRLogo} alt="ASR" width={200} height={80} />
-                      </div>
-                      <div className="h-6">
-                        <Image src={SEACLogo} alt="SEAC" width={200} height={80} />
-                      </div>
+      <div className="flex w-full justify-center relative">
+          <div className="flex flex-col max-w-[1200px] w-full">
+            <BackgroundPattern/>
+              <div className="flex flex-col pl-[clamp(2rem,4vw,4rem)] pr-6 items-center">
+                  <div className="w-[98%] relative h-screen">
+                    <div data-aos="fade-up" className="lg:w-[900px]">
+                      <h2 className="font-manrope font-bold text-[clamp(1rem,2vw,1.4rem)] mb-[clamp(1.2rem,4vh,3rem)] mt-[clamp(5rem,12vh,12rem)] text-cream">Punch Card</h2>
+                      <h1 className="font-lora text-[clamp(2.3rem,6vw,3.8rem)] mb-[clamp(1.2rem,4vh,3rem)] mt-[clamp(5rem,12vh,12rem)] leading-[1.2] text-cream">
+                          We build useful AI-native tools for a variety of industries.
+                      </h1>
                     </div>
-                  </div> */}
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* selected work */}
-          <div className="pl-[clamp(2rem,4vw,4rem)] mb-44" data-aos="fade-up" data-aos-delay="800">
-            <div className="flex flex-col justify-center md:justify-start">
-              <h2 className="font-libre font-semibold text-2xl md:pl-1">Selected work</h2>
-              <p className="font-libre text-md mb-6 md:pl-1">Startups, nonprofits, and established ventures</p>
-            </div>
-            <div>
-              <div className="flex flex-col md:flex-row justify-start pl-1 md:space-x-[8rem]">
-                <Link href="/work/givebackkids">
-                  <Card
-                    title="GiveBackHack Kids"
-                    subtitle="Teaching entrepreneurship to five-year-olds"
-                    showArrow={false}
-                    image={GBHKidsMockup}
-                    altText="Picture of a GiveBackHack Kids lesson"
-                  />
-                </Link>
-                <br />
-                <Link href="https://www.teach-to.com" target="_blank" rel="noopener noreferrer">
-                  <Card
-                    title="TeachTo"
-                    subtitle="IEP goal-writing prototype for SPED teachers"
-                    showArrow={true}
-                    image={TeachToMockup}
-                    altText="Picture of the TeachTo product screen"
-                  />
-                </Link>
-                <br />
-                <Link href="/work/map">
-                  <Card
-                    title="MAP"
-                    subtitle="Find accessible transit options to any event"
-                    showArrow={false}
-                    image={ASRLogo}
-                    altText="Picture of the ASR logo"
-                  />
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className="pl-[clamp(2rem,4vw,4rem)] mb-24 mt-16">
-            <div data-aos="fade-up" data-aos-delay="200">
-              <h2 className="font-libre font-bold text-2xl text-start md:pl-1">Where we help</h2>
-              <p className="font-libre text-md mb-10 md:pl-1">Empathetic, embedded partnerships to shorten feedback loops</p>
-              <div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-32">
-                  {/* product and lightbulb */}
-                  <div className="w-[280px]"> 
-                    <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mb-4">
-                      <svg className="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
-                      </svg>
+                    <div data-aos="fade-up" data-aos-delay="200" className="md:w-[600px]">
+                      <p className="font-libre text-gray-300 text-[clamp(0.9rem,2vw,1.3rem)] mb-8 leading-relaxed">
+                        Research, experimentation, and right-sized deployments that create exceptional value in complex problem spaces.
+                      </p>
                     </div>
-                    <h3 className="font-libre font-bold text-lg mb-2">All things product</h3>
-                    <p className="font-libre text-sm text-gray-600">UXR research, piloting, prototyping, strategy, and roadmapping</p>
                   </div>
-                  {/* fundraising and money */}
-                  <div className="w-[280px]">
-                    <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mb-4">
-                      <svg className="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                      </svg>
-                    </div>
-                    <h3 className="font-libre font-bold text-lg mb-2">Scrappy fundraising</h3>
-                    <p className="font-libre text-sm text-gray-600">Outreach, pitch support, relationship-building, and branding</p>
-                  </div>
-                  {/* ops and building */}
-                  <div className="w-[300px]">
-                    <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mb-4">
-                      <svg className="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
-                      </svg>
-                    </div>
-                    <h3 className="font-libre font-bold text-lg mb-2">Flexible ops</h3>
-                    <p className="font-libre text-sm text-gray-600">Build startup infrastructure from the beginning and scale as you grow</p>
+                {/* Logo Section */}
+                <div className="flex flex-col w-full mb-[clamp(1.2rem,20vh,12rem)]">
+                  <div className="flex flex-col items-center justify-center space-y-4 md:flex-row md:space-y-0 md:space-x-8">
+                    <Image src={GBHLogo} alt="GiveBackHack" width={220} height={80} className={logoStyle}/>
+                    <Image src={ASRLogo} alt="ASR" width={220} height={80} className={logoStyle} />
+                    <Image src={SEACLogo} alt="SEAC" width={220} height={80} className={logoStyle} />
+                    <Image src={ArrayLogo} alt="Array" width={200} height={70} className={logoStyle} />
+                    <Image src={OneOneNineLogo} alt="119" width={200} height={70} className={logoStyle} />
                   </div>
                 </div>
+                {/* Services Section */}
+                <div className="flex flex-col gap-8 mb-[clamp(1.2rem,20vh,12rem)]">
+                <ServiceCard number={1} title="Discover" description="Build a rich repository of qualitative data from customers or beneficiaries. Experiments de-risk our working hypotheses, documentation allows for repeatability, and functional prototypes help scope future work. Index for learning as quickly as possible." />
+                  <ServiceCard number={2} title="Architect" description="Decisions are made here. As a rule, we always strike a balance between minimizing technical debt and moving quickly with conviction. Thinking is demonstrated—while we’ll call on some valuable product methods, this is not a plug-and-play process." />
+                  <ServiceCard number={3} title="Ship" description="We build quickly, but always show our work. Clear communication and documentation allow for mantainance at scale. Right-sized, cost-effective, and clear demonstrative value. Systems are equally approachable and functional for internal and external stakeholders." />
+                </div>
               </div>
-            </div>
           </div>
-        </div>
       </div>
     </div>
   );
