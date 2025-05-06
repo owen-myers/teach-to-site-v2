@@ -2,7 +2,7 @@
 
 import Link from 'next/link'; 
 import GBKHeader from "../public/GBH_Header_Portfolio.svg";
-import Card from './components/card-comp';
+import Card from './components/WorkCard';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -12,7 +12,9 @@ import ASRLogo from "../public/ASR_Logo_Sized.svg";
 import GBHLogo from "../public/GBH_Logo_Sized.svg";
 import SEACLogo from "../public/SEAC_Logo_Sized.svg";
 import ArrayLogo from "../public/Array_Logo_Sized.svg";
-import OneOneNineLogo from "../public/119_Logo_Sized.svg"
+import OneOneNineLogo from "../public/119_Logo_Sized.svg";
+import GPLogo from "../public/GrowthPartnership_Logo_Sized.svg";
+import JumpStartLogo from "../public/Jumpstart_Logo_Sized.svg";
 import Image from 'next/image';
 import BackgroundPattern from './components/BackgroundPattern';
 import ServiceCard from './components/ServicesCard';
@@ -42,13 +44,43 @@ export default function Home() {
                     </div>
                     <div data-aos="fade-up" data-aos-delay="200" className="md:w-[600px]">
                       <p className="font-libre text-gray-300 text-[clamp(0.9rem,2vw,1.3rem)] mb-8 leading-relaxed">
-                        Research, experimentation, and right-sized deployments that create exceptional value in complex problem spaces.
+                        Research, experimentation, and right-sized deployments that create exceptional value for everyone.
                       </p>
+                      {/* Animated Down Arrow */}
+                      <div className="flex w-full">
+                        <span className="animate-bounce-slow mt-2">
+                          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-cream">
+                            <line x1="12" y1="5" x2="12" y2="19" />
+                            <polyline points="19 12 12 19 5 12" />
+                          </svg>
+                        </span>
+                      </div>
                     </div>
                   </div>
                 {/* Logo Section */}
-                <div className="flex flex-col w-full mb-[clamp(1.2rem,20vh,12rem)]">
-                  <div className="flex flex-col items-center justify-center space-y-4 md:flex-row md:space-y-0 md:space-x-8">
+                <div className="w-full mb-[clamp(1.2rem,20vh,12rem)] overflow-hidden">
+                  <div className="hidden md:flex items-center ticker-row whitespace-nowrap will-change-transform animate-ticker">
+                    <div className="flex items-center space-x-8">
+                      <Image src={GBHLogo} alt="GiveBackHack" width={220} height={80} className={logoStyle}/>
+                      <Image src={ASRLogo} alt="ASR" width={220} height={80} className={logoStyle} />
+                      <Image src={SEACLogo} alt="SEAC" width={220} height={80} className={logoStyle} />
+                      <Image src={ArrayLogo} alt="Array" width={200} height={70} className={logoStyle} />
+                      <Image src={OneOneNineLogo} alt="119" width={200} height={70} className={logoStyle} />
+                      <Image src={JumpStartLogo} alt="JumpStart" width={200} height={70} className={logoStyle} />
+                      <Image src={GPLogo} alt="GrowthPartnership" width={200} height={70} className={logoStyle} />
+                    </div>
+                    <div className="flex items-center space-x-8 ml-8">
+                      <Image src={GBHLogo} alt="GiveBackHack" width={220} height={80} className={logoStyle}/>
+                      <Image src={ASRLogo} alt="ASR" width={220} height={80} className={logoStyle} />
+                      <Image src={SEACLogo} alt="SEAC" width={220} height={80} className={logoStyle} />
+                      <Image src={ArrayLogo} alt="Array" width={200} height={70} className={logoStyle} />
+                      <Image src={OneOneNineLogo} alt="119" width={200} height={70} className={logoStyle} />
+                      <Image src={JumpStartLogo} alt="JumpStart" width={200} height={70} className={logoStyle} />
+                      <Image src={GPLogo} alt="GrowthPartnership" width={200} height={70} className={logoStyle} />
+                    </div>
+                  </div>
+                  {/* Fallback for small screens: stack logos vertically */}
+                  <div className="flex flex-col items-center justify-center space-y-4 md:hidden">
                     <Image src={GBHLogo} alt="GiveBackHack" width={220} height={80} className={logoStyle}/>
                     <Image src={ASRLogo} alt="ASR" width={220} height={80} className={logoStyle} />
                     <Image src={SEACLogo} alt="SEAC" width={220} height={80} className={logoStyle} />
@@ -57,14 +89,70 @@ export default function Home() {
                   </div>
                 </div>
                 {/* Services Section */}
-                <div className="flex flex-col gap-8 mb-[clamp(1.2rem,20vh,12rem)]">
-                <ServiceCard number={1} title="Discover" description="Build a rich repository of qualitative data from customers or beneficiaries. Experiments de-risk our working hypotheses, documentation allows for repeatability, and functional prototypes help scope future work. Index for learning as quickly as possible." />
-                  <ServiceCard number={2} title="Architect" description="Decisions are made here. As a rule, we always strike a balance between minimizing technical debt and moving quickly with conviction. Thinking is demonstrated—while we’ll call on some valuable product methods, this is not a plug-and-play process." />
-                  <ServiceCard number={3} title="Ship" description="We build quickly, but always show our work. Clear communication and documentation allow for mantainance at scale. Right-sized, cost-effective, and clear demonstrative value. Systems are equally approachable and functional for internal and external stakeholders." />
+                <div className="flex flex-col gap-8 w-full mb-[clamp(1.2rem,20vh,12rem)] h-screen">
+                  {/* Heading for small screens */}
+                  <h2 className="font-lora text-navy text-[clamp(1.2rem,10vw,7rem)] block md:hidden mb-2">M.O.</h2>
+                  
+                  {/* First card row with heading for large screens */}
+                  <div className="flex items-center justify-center">
+                    <h2 className="font-lora text-navy text-[clamp(1.2rem,10vw,7rem)] hidden md:block mr-4">M.O.</h2>
+                    <div
+                      className="flex md:justify-start md:pl-[clamp(1.2rem,14.5vw,12rem)] justify-center"
+                      data-aos="fade-up"
+                      data-aos-delay="0"
+                    >
+                      <ServiceCard number={1} title="Discover" description="Build a rich repository of research data. Speedy experiments de-risk our working hypotheses." />
+                    </div>
+                  </div>
+                  <div
+                    className="flex justify-end md:pr-64 justify-center"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <ServiceCard number={2} title="Architect" description="Prioritize and design human-centered AI tools. Visualize our thinking as partners. " />
+                  </div>
+                  <div
+                    className="flex justify-start md:pl-48 justify-center md:-rotate-3"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <ServiceCard number={3} title="Ship" description="We build quickly, but always show our work. Right-sized, loveable, and demonstratively valuable." />
+                  </div>
                 </div>
               </div>
+            </div>
           </div>
-      </div>
+          {/* Work Section */}
+          <div className="flex flex-col h-screen bg-navy items-center justify-center">
+            <div className="flex flex-col max-w-[1400px] w-full items-center">
+              <h2 className="font-lora text-cream text-[clamp(1.2rem,5vw,6rem)] mb-8">Work</h2>
+              <div className ="flex flex-col lg:flex-row justify-center items-center lg:space-x-8">
+                <Link href="/work/givebackkids">
+                    <Card
+                    title="GiveBackKids"
+                    subtitle="Teaching design thinking to five-year-olds"
+                    showArrow={false}
+                    />
+                </Link>
+                <br />
+                <Link href="https://www.teach-to.com" target="_blank" rel="noopener noreferrer">
+                    <Card
+                    title="TeachTo"
+                    subtitle="An IEP goal-writing prototype for SPED professionals"
+                    showArrow={true}
+                    />
+                </Link>
+                <br />
+                <Link href="/work/map">
+                    <Card
+                    title="MAP"
+                    subtitle="GPT-assisted aggregation of accessible transit resources"
+                    showArrow={false}
+                    />
+                </Link>
+              </div>
+            </div>
+          </div>
     </div>
   );
 }

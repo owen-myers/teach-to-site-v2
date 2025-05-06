@@ -1,4 +1,4 @@
-import Card from "../components/card-comp";
+import Card from "../components/WorkCard";
 import Link from "next/link";
 import { Metadata } from 'next';
 import GBKHeader from "../../public/GBH_Header_Portfolio.svg";

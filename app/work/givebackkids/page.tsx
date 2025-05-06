@@ -13,19 +13,19 @@ export const metadata: Metadata = {
                 lead design thinking lessons in elementary schools in Columbus, Ohio.`
 };
 
-const GBKLinkStyle = "font-rethink font-light text-sm text-blue-600 underline hover:text-blue-800 transition duration-200 ease-in-out";
-const captionStyle = "font-rethink font-light text-sm text-gray-500 flex justify-center"
+const GBKLinkStyle = "font-libre text-sm text-blue-600 underline hover:text-blue-800 transition duration-200 ease-in-out";
+const captionStyle = "font-libre text-sm text-gray-500 flex justify-center"
 
 export default function GiveBackKids() {
     return (
         <div>
             <div className="max-w-3xl px-4 mx-auto mt-8 mb-6">
-                <a href="/" className="font-rethink text-gray-500 hover:text-gray-900 transition duration-200 ease-in-out">&larr; Back</a>
+                <a href="/" className="font-libre text-gray-500 hover:text-gray-900 transition duration-200 ease-in-out">&larr; Back</a>
             </div>
             <div className="max-w-3xl mx-auto px-4">
                 <div>
-                    <h1 className="font-manrope text-3xl mb-2">GiveBackKids</h1>
-                    <h2 className="font-rethink font-light text-med mb-8">Teaching design thinking to five-year-olds</h2>
+                    <h1 className="font-lora text-3xl mb-2">GiveBackKids</h1>
+                    <h2 className="font-manrope text-med mb-8">Teaching design thinking to five-year-olds</h2>
                 </div>
                 <div className="mb-12">
                     <div className="mb-8">
@@ -36,13 +36,13 @@ export default function GiveBackKids() {
                         <div className="mr-4 flex-shrink-0">
                         <Image src={ Stopwatch } alt="A stopwatch." width={16} height={16}/>
                         </div>
-                    <p className="font-manrope text-sm">3 months</p>
+                    <p className="font-libre text-sm">3 months</p>
                     </div>
                     <div className ="flex justify-left items-center mb-4">
                         <div className="mr-4 flex-shrink-0">
                         <Image src={ Package } alt="A wrapped package." width={16} height={16}/>
                         </div>
-                    <p className="font-manrope text-sm">4-module curriculum</p>
+                    <p className="font-libre text-sm">4-module curriculum</p>
                     </div>
                 </div>
                 <div>
