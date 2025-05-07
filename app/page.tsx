@@ -89,7 +89,7 @@ export default function Home() {
                   </div>
                 </div>
                 {/* Services Section */}
-                <div className="flex flex-col gap-8 w-full mb-[clamp(1.2rem,20vh,12rem)] h-screen">
+                <div className="flex flex-col gap-8 w-full h-screen">
                   {/* Heading for small screens */}
                   <h2 className="font-lora text-navy text-[clamp(1.2rem,10vw,7rem)] block md:hidden mb-2">M.O.</h2>
                   
@@ -101,7 +101,7 @@ export default function Home() {
                       data-aos="fade-up"
                       data-aos-delay="0"
                     >
-                      <ServiceCard number={1} title="Discover" description="Build a rich repository of research data. Speedy experiments de-risk our working hypotheses." />
+                      <ServiceCard number={1} title="Discover" description="Quickly build a repository of actionable research data. Test your working hypotheses." />
                     </div>
                   </div>
                   <div
@@ -109,14 +109,14 @@ export default function Home() {
                     data-aos="fade-up"
                     data-aos-delay="100"
                   >
-                    <ServiceCard number={2} title="Architect" description="Prioritize and design human-centered AI tools. Visualize our thinking as partners. " />
+                    <ServiceCard number={2} title="Architect" description="Design human-centered, AI-native systems. We handle legacy integrations and security." />
                   </div>
                   <div
                     className="flex justify-start md:pl-48 justify-center md:-rotate-3"
                     data-aos="fade-up"
                     data-aos-delay="200"
                   >
-                    <ServiceCard number={3} title="Ship" description="We build quickly, but always show our work. Right-sized, loveable, and demonstratively valuable." />
+                    <ServiceCard number={3} title="Ship" description="Deploy right-sized, loveable, and demonstratively valuable software for any type of user." />
                   </div>
                 </div>
               </div>
@@ -125,32 +125,34 @@ export default function Home() {
           {/* Work Section */}
           <div className="flex flex-col h-screen bg-navy items-center justify-center">
             <div className="flex flex-col max-w-[1400px] w-full items-center">
-              <h2 className="font-lora text-cream text-[clamp(1.2rem,5vw,6rem)] mb-8">Work</h2>
-              <div className ="flex flex-col lg:flex-row justify-center items-center lg:space-x-8">
-                <Link href="/work/givebackkids">
-                    <Card
-                    title="GiveBackKids"
-                    subtitle="Teaching design thinking to five-year-olds"
-                    showArrow={false}
-                    />
-                </Link>
-                <br />
-                <Link href="https://www.teach-to.com" target="_blank" rel="noopener noreferrer">
-                    <Card
-                    title="TeachTo"
-                    subtitle="An IEP goal-writing prototype for SPED professionals"
-                    showArrow={true}
-                    />
-                </Link>
-                <br />
-                <Link href="/work/map">
-                    <Card
-                    title="MAP"
-                    subtitle="GPT-assisted aggregation of accessible transit resources"
-                    showArrow={false}
-                    />
-                </Link>
+              <div>
+                <h2 className="font-lora text-cream text-[clamp(1.2rem,6vw,6rem)] mb-8">Work</h2>
               </div>
+                <div className ="flex flex-col lg:flex-row justify-center items-center lg:space-x-8">
+                  <Link href="/work/givebackkids">
+                      <Card
+                      title="GiveBackKids"
+                      subtitle="Teaching design thinking to five-year-olds"
+                      showArrow={false}
+                      />
+                  </Link>
+                  <br />
+                  <Link href="https://www.teach-to.com" target="_blank" rel="noopener noreferrer">
+                      <Card
+                      title="TeachTo"
+                      subtitle="An IEP goal-writing prototype for SPED professionals"
+                      showArrow={true}
+                      />
+                  </Link>
+                  <br />
+                  <Link href="/work/map">
+                      <Card
+                      title="MAP"
+                      subtitle="GPT-assisted aggregation of accessible transit resources"
+                      showArrow={false}
+                      />
+                  </Link>
+                </div>
             </div>
           </div>
     </div>
