@@ -43,7 +43,7 @@ export default function MobilityAutonomyProgram() {
                         title = "OVERVIEW"
                         subtitle="Rethinking how adults with IDDs find accessible transit resources"
                         paragraph = {`In partnership with Autistic Self-Reliance Support Network (ASR), 
-                            Iuka is developing a GPT-assisted resource aggregator for transit users with 
+                            Punch Card is developing a GPT-assisted resource aggregator for transit users with 
                             intellectual and developmental disabilities (IDDs) nicknamed Caravan. As of 
                             December 2024, it’s currently being tested with a cohort of adults with IDDs 
                             as a part of ASR’s Mobility Autonomy Program (MAP).`}

@@ -59,7 +59,7 @@ export default function GiveBackKids() {
                     <Section
                         title = "DISCOVERY"
                         subtitle = "Learning from facilitators, teachers, and curriculum writers"
-                        paragraph = {`Iuka scheduled interviews for the duration of the sprint. 
+                        paragraph = {`Punch Card scheduled interviews for the duration of the sprint. 
                         We targeted facilitators, teachers, and curriculum writers. An interview or two a 
                         week allowed for continuous feedback on the materials as they were written. Teachers 
                         helped us simplify our concepts to meet grade-level SEL goals, curriculum writers 
