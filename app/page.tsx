@@ -89,7 +89,7 @@ export default function Home() {
                   </div>
                 </div>
                 {/* Services Section */}
-                <div className="flex flex-col gap-8 w-full h-screen">
+                <div className="flex flex-col gap-8 w-full min-h-screen md:h-screen pb-12 md:pb-0">
                   {/* Heading for small screens */}
                   <h2 className="font-lora text-navy text-[clamp(1.2rem,10vw,7rem)] block md:hidden mb-2">M.O.</h2>
                   
@@ -123,10 +123,10 @@ export default function Home() {
             </div>
           </div>
           {/* Work Section */}
-          <div className="flex flex-col h-screen bg-navy items-center justify-center">
+          <div className="flex flex-col min-h-screen md:h-screen bg-navy items-center justify-center py-12 md:py-0">
             <div className="flex flex-col max-w-[1400px] w-full items-center">
               <div>
-                <h2 className="font-lora text-cream text-[clamp(1.2rem,6vw,6rem)] mb-8">Work</h2>
+                <h2 className="font-lora text-cream text-[clamp(2.2rem,6vw,6rem)] mb-8">Work</h2>
               </div>
                 <div className ="flex flex-col lg:flex-row justify-center items-center lg:space-x-8">
                   <Link href="/work/givebackkids">
